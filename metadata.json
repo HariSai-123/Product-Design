@@ -1,0 +1,6 @@
+{
+  "name": "Colony Counter",
+  "description": "Automated microbial colony counting, CFU analysis, and zone-wise distribution analysis of medical appliance samples.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
