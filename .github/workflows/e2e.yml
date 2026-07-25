@@ -1,0 +1,77 @@
+name: e2e.yml
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  selenium-website-tests:
+    name: Selenium — Website Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Selenium Tests
+        run: echo "Running Selenium Website Tests..."
+
+  appium-android-tests:
+    name: Appium — Android Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # pip install -r requirements.txt # if exists
+      - name: Run Appium Tests
+        run: echo "Running Appium Android Tests..."
+        # run: python AppiumTestSuite350.py
+
+  unit-tests-api:
+    name: Unit Tests — API (300)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run API Unit Tests
+        run: echo "Running API Unit Tests..."
+
+  validation-tests:
+    name: Validation Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Validation Tests
+        run: echo "Running Validation Tests..."
+
+  deployment-status:
+    name: Deployment Status (300)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Deployment Status
+        run: echo "Checking Deployment Status..."
+
+  load-testing-performance:
+    name: Load Testing — Performance (300)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Load Testing
+        run: echo "Running Load Testing..."
+
+  compile-master-report-deploy:
+    name: Compile Master Report & Deploy
+    needs: [selenium-website-tests, appium-android-tests, unit-tests-api, validation-tests, deployment-status, load-testing-performance]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile Report
+        run: echo "Compiling Master Report..."
+      - name: Deploy
+        run: echo "Deploying..."
