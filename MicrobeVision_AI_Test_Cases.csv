@@ -1,0 +1,1097 @@
+ID,Suite,Component,Function Name,Description
+DT001,Validation (Pytest),TestDataTypeValidation,test_DT001_colony_count_int,Validate that colony count int
+DT002,Validation (Pytest),TestDataTypeValidation,test_DT002_colony_count_non_negative,Validate that colony count non negative
+DT003,Validation (Pytest),TestDataTypeValidation,test_DT003_colony_count_not_string,Validate that colony count not string
+DT004,Validation (Pytest),TestDataTypeValidation,test_DT004_colony_count_not_float,Validate that colony count not float
+DT005,Validation (Pytest),TestDataTypeValidation,test_DT005_colony_count_zero_valid,Validate that colony count zero valid
+DT006,Validation (Pytest),TestDataTypeValidation,test_DT006_colony_count_max_reasonable,Validate that colony count max reasonable
+DT007,Validation (Pytest),TestDataTypeValidation,test_DT007_colony_count_parsed_from_string,Validate that colony count parsed from string
+DT008,Validation (Pytest),TestDataTypeValidation,test_DT008_colony_count_none_invalid,Validate that colony count none invalid
+DT009,Validation (Pytest),TestDataTypeValidation,test_DT009_cfu_count_derived,Validate that cfu count derived
+DT010,Validation (Pytest),TestDataTypeValidation,test_DT010_cfu_count_int,Validate that cfu count int
+DT011,Validation (Pytest),TestDataTypeValidation,test_DT011_cfu_count_non_negative,Validate that cfu count non negative
+DT012,Validation (Pytest),TestDataTypeValidation,test_DT012_cfu_count_zero_when_colony_zero,Validate that cfu count zero when colony zero
+DT013,Validation (Pytest),TestDataTypeValidation,test_DT013_dilution_factor_positive,Validate that dilution factor positive
+DT014,Validation (Pytest),TestDataTypeValidation,test_DT014_dilution_factor_not_zero,Validate that dilution factor not zero
+DT015,Validation (Pytest),TestDataTypeValidation,test_DT015_dilution_factor_not_negative,Validate that dilution factor not negative
+DT016,Validation (Pytest),TestDataTypeValidation,test_DT016_dilution_factor_1_valid,Validate that dilution factor 1 valid
+DT017,Validation (Pytest),TestDataTypeValidation,test_DT017_dilution_factor_100_valid,Validate that dilution factor 100 valid
+DT018,Validation (Pytest),TestDataTypeValidation,test_DT018_dilution_factor_parsed_from_string,Validate that dilution factor parsed from string
+DT019,Validation (Pytest),TestDataTypeValidation,test_DT019_dilution_factor_float_parsed,Validate that dilution factor float parsed
+DT020,Validation (Pytest),TestDataTypeValidation,test_DT020_dilution_factor_max,Validate that dilution factor max
+DT021,Validation (Pytest),TestDataTypeValidation,test_DT021_batch_id_not_empty,Validate that batch id not empty
+DT022,Validation (Pytest),TestDataTypeValidation,test_DT022_batch_id_string,Validate that batch id string
+DT023,Validation (Pytest),TestDataTypeValidation,test_DT023_batch_id_no_html,Validate that batch id no html
+DT024,Validation (Pytest),TestDataTypeValidation,test_DT024_batch_id_no_script,Validate that batch id no script
+DT025,Validation (Pytest),TestDataTypeValidation,test_DT025_batch_id_max_length,Validate that batch id max length
+DT026,Validation (Pytest),TestDataTypeValidation,test_DT026_batch_id_min_length,Validate that batch id min length
+DT027,Validation (Pytest),TestDataTypeValidation,test_DT027_batch_id_trimmed,Validate that batch id trimmed
+DT028,Validation (Pytest),TestDataTypeValidation,test_DT028_batch_id_alphanumeric_dash,Validate that batch id alphanumeric dash
+DT029,Validation (Pytest),TestDataTypeValidation,test_DT029_appliance_type_valid,Validate that appliance type valid
+DT030,Validation (Pytest),TestDataTypeValidation,test_DT030_appliance_type_scalpel,Validate that appliance type scalpel
+DT031,Validation (Pytest),TestDataTypeValidation,test_DT031_appliance_type_endoscope,Validate that appliance type endoscope
+DT032,Validation (Pytest),TestDataTypeValidation,test_DT032_appliance_type_not_empty,Validate that appliance type not empty
+DT033,Validation (Pytest),TestDataTypeValidation,test_DT033_appliance_type_string,Validate that appliance type string
+DT034,Validation (Pytest),TestDataTypeValidation,test_DT034_appliance_type_no_html,Validate that appliance type no html
+DT035,Validation (Pytest),TestDataTypeValidation,test_DT035_appliance_type_trimmed,Validate that appliance type trimmed
+DT036,Validation (Pytest),TestDataTypeValidation,test_DT036_appliance_other_string,Validate that appliance other string
+DT037,Validation (Pytest),TestDataTypeValidation,test_DT037_role_lab_technician,Validate that role lab technician
+DT038,Validation (Pytest),TestDataTypeValidation,test_DT038_role_researcher,Validate that role researcher
+DT039,Validation (Pytest),TestDataTypeValidation,test_DT039_role_admin,Validate that role admin
+DT040,Validation (Pytest),TestDataTypeValidation,test_DT040_role_not_empty,Validate that role not empty
+DT041,Validation (Pytest),TestDataTypeValidation,test_DT041_role_string,Validate that role string
+DT042,Validation (Pytest),TestDataTypeValidation,test_DT042_role_invalid_rejected,Validate that role invalid rejected
+DT043,Validation (Pytest),TestDataTypeValidation,test_DT043_role_case_sensitive,Validate that role case sensitive
+DT044,Validation (Pytest),TestDataTypeValidation,test_DT044_role_count_is_3,Validate that role count is 3
+DT045,Validation (Pytest),TestDataTypeValidation,test_DT045_risk_low,Validate that risk low
+DT046,Validation (Pytest),TestDataTypeValidation,test_DT046_risk_medium,Validate that risk medium
+DT047,Validation (Pytest),TestDataTypeValidation,test_DT047_risk_high,Validate that risk high
+DT048,Validation (Pytest),TestDataTypeValidation,test_DT048_risk_critical,Validate that risk critical
+DT049,Validation (Pytest),TestDataTypeValidation,test_DT049_risk_invalid,Validate that risk invalid
+DT050,Validation (Pytest),TestDataTypeValidation,test_DT050_risk_string,Validate that risk string
+DT051,Validation (Pytest),TestDataTypeValidation,test_DT051_risk_not_empty,Validate that risk not empty
+DT052,Validation (Pytest),TestDataTypeValidation,test_DT052_risk_count_is_4,Validate that risk count is 4
+DT053,Validation (Pytest),TestDataTypeValidation,test_DT053_zones_is_dict,Validate that zones is dict
+DT054,Validation (Pytest),TestDataTypeValidation,test_DT054_zones_has_inner,Validate that zones has inner
+DT055,Validation (Pytest),TestDataTypeValidation,test_DT055_zones_has_middle,Validate that zones has middle
+DT056,Validation (Pytest),TestDataTypeValidation,test_DT056_zones_has_outer,Validate that zones has outer
+DT057,Validation (Pytest),TestDataTypeValidation,test_DT057_zones_values_non_negative,Validate that zones values non negative
+DT058,Validation (Pytest),TestDataTypeValidation,test_DT058_zones_values_integers,Validate that zones values integers
+DT059,Validation (Pytest),TestDataTypeValidation,test_DT059_zones_total_equals_colony_count,Validate that zones total equals colony count
+DT060,Validation (Pytest),TestDataTypeValidation,test_DT060_zones_empty_dict,Validate that zones empty dict
+BR001,Validation (Pytest),TestBusinessRuleValidation,test_BR001_risk_0_colonies_is_low,Validate that risk 0 colonies is low
+BR002,Validation (Pytest),TestBusinessRuleValidation,test_BR002_risk_5_colonies_is_low,Validate that risk 5 colonies is low
+BR003,Validation (Pytest),TestBusinessRuleValidation,test_BR003_risk_6_colonies_is_medium,Validate that risk 6 colonies is medium
+BR004,Validation (Pytest),TestBusinessRuleValidation,test_BR004_risk_25_colonies_is_medium,Validate that risk 25 colonies is medium
+BR005,Validation (Pytest),TestBusinessRuleValidation,test_BR005_risk_26_colonies_is_high,Validate that risk 26 colonies is high
+BR006,Validation (Pytest),TestBusinessRuleValidation,test_BR006_risk_60_colonies_is_high,Validate that risk 60 colonies is high
+BR007,Validation (Pytest),TestBusinessRuleValidation,test_BR007_risk_61_colonies_is_critical,Validate that risk 61 colonies is critical
+BR008,Validation (Pytest),TestBusinessRuleValidation,test_BR008_risk_100_colonies_is_critical,Validate that risk 100 colonies is critical
+BR009,Validation (Pytest),TestBusinessRuleValidation,test_BR009_risk_boundary_5_6,Validate that risk boundary 5 6
+BR010,Validation (Pytest),TestBusinessRuleValidation,test_BR010_risk_boundary_25_26,Validate that risk boundary 25 26
+BR011,Validation (Pytest),TestBusinessRuleValidation,test_BR011_risk_boundary_60_61,Validate that risk boundary 60 61
+BR012,Validation (Pytest),TestBusinessRuleValidation,test_BR012_risk_returns_string,Validate that risk returns string
+BR013,Validation (Pytest),TestBusinessRuleValidation,test_BR013_risk_always_in_valid_set,Validate that risk always in valid set
+BR014,Validation (Pytest),TestBusinessRuleValidation,test_BR014_risk_monotonically_non_decreasing,Validate that risk monotonically non decreasing
+BR015,Validation (Pytest),TestBusinessRuleValidation,test_BR015_cfu_count_equals_colony_times_dilution,Validate that cfu count equals colony times dilution
+BR016,Validation (Pytest),TestBusinessRuleValidation,test_BR016_cfu_zero_colonies_gives_zero,Validate that cfu zero colonies gives zero
+BR017,Validation (Pytest),TestBusinessRuleValidation,test_BR017_cfu_dilution_1_no_change,Validate that cfu dilution 1 no change
+BR018,Validation (Pytest),TestBusinessRuleValidation,test_BR018_cfu_dilution_100,Validate that cfu dilution 100
+BR019,Validation (Pytest),TestBusinessRuleValidation,test_BR019_cfu_rounds_to_int,Validate that cfu rounds to int
+BR020,Validation (Pytest),TestBusinessRuleValidation,test_BR020_cfu_always_non_negative,Validate that cfu always non negative
+BR021,Validation (Pytest),TestBusinessRuleValidation,test_BR021_cfu_correct_formula,Validate that cfu correct formula
+BR022,Validation (Pytest),TestBusinessRuleValidation,test_BR022_cfu_is_integer,Validate that cfu is integer
+BR023,Validation (Pytest),TestBusinessRuleValidation,test_BR023_zones_center_is_inner,Validate that zones center is inner
+BR024,Validation (Pytest),TestBusinessRuleValidation,test_BR024_zones_edge_is_outer,Validate that zones edge is outer
+BR025,Validation (Pytest),TestBusinessRuleValidation,test_BR025_zones_sum_equals_total,Validate that zones sum equals total
+BR026,Validation (Pytest),TestBusinessRuleValidation,test_BR026_zones_empty_input,Validate that zones empty input
+BR027,Validation (Pytest),TestBusinessRuleValidation,test_BR027_zones_all_center_all_inner,Validate that zones all center all inner
+BR028,Validation (Pytest),TestBusinessRuleValidation,test_BR028_zones_all_edge_all_outer,Validate that zones all edge all outer
+BR029,Validation (Pytest),TestBusinessRuleValidation,test_BR029_zones_returns_dict,Validate that zones returns dict
+BR030,Validation (Pytest),TestBusinessRuleValidation,test_BR030_zones_non_negative_values,Validate that zones non negative values
+BR031,Validation (Pytest),TestBusinessRuleValidation,test_BR031_batch_id_must_not_be_empty,Validate that batch id must not be empty
+BR032,Validation (Pytest),TestBusinessRuleValidation,test_BR032_batch_id_unique_per_submission,Validate that batch id unique per submission
+BR033,Validation (Pytest),TestBusinessRuleValidation,test_BR033_batch_id_no_spaces,Validate that batch id no spaces
+BR034,Validation (Pytest),TestBusinessRuleValidation,test_BR034_batch_id_uppercase_accepted,Validate that batch id uppercase accepted
+BR035,Validation (Pytest),TestBusinessRuleValidation,test_BR035_batch_id_format_with_year,Validate that batch id format with year
+BR036,Validation (Pytest),TestBusinessRuleValidation,test_BR036_dilution_must_be_positive,Validate that dilution must be positive
+BR037,Validation (Pytest),TestBusinessRuleValidation,test_BR037_dilution_not_zero,Validate that dilution not zero
+BR038,Validation (Pytest),TestBusinessRuleValidation,test_BR038_dilution_not_negative,Validate that dilution not negative
+BR039,Validation (Pytest),TestBusinessRuleValidation,test_BR039_dilution_typical_range,Validate that dilution typical range
+BR040,Validation (Pytest),TestBusinessRuleValidation,test_BR040_dilution_affects_cfu,Validate that dilution affects cfu
+BR041,Validation (Pytest),TestBusinessRuleValidation,test_BR041_low_risk_colony_threshold,Validate that low risk colony threshold
+BR042,Validation (Pytest),TestBusinessRuleValidation,test_BR042_medium_risk_colony_threshold,Validate that medium risk colony threshold
+BR043,Validation (Pytest),TestBusinessRuleValidation,test_BR043_high_risk_colony_threshold,Validate that high risk colony threshold
+BR044,Validation (Pytest),TestBusinessRuleValidation,test_BR044_critical_risk_colony_threshold,Validate that critical risk colony threshold
+BR045,Validation (Pytest),TestBusinessRuleValidation,test_BR045_risk_equal_boundary_5,Validate that risk equal boundary 5
+BR046,Validation (Pytest),TestBusinessRuleValidation,test_BR046_risk_above_boundary_5,Validate that risk above boundary 5
+BR047,Validation (Pytest),TestBusinessRuleValidation,test_BR047_risk_equal_boundary_25,Validate that risk equal boundary 25
+BR048,Validation (Pytest),TestBusinessRuleValidation,test_BR048_risk_above_boundary_25,Validate that risk above boundary 25
+BR049,Validation (Pytest),TestBusinessRuleValidation,test_BR049_risk_equal_boundary_60,Validate that risk equal boundary 60
+BR050,Validation (Pytest),TestBusinessRuleValidation,test_BR050_risk_above_boundary_60,Validate that risk above boundary 60
+BR051,Validation (Pytest),TestBusinessRuleValidation,test_BR051_admin_can_view_all_samples,Validate that admin can view all samples
+BR052,Validation (Pytest),TestBusinessRuleValidation,test_BR052_lab_tech_can_upload,Validate that lab tech can upload
+BR053,Validation (Pytest),TestBusinessRuleValidation,test_BR053_researcher_can_view,Validate that researcher can view
+BR054,Validation (Pytest),TestBusinessRuleValidation,test_BR054_admin_can_manage_users,Validate that admin can manage users
+BR055,Validation (Pytest),TestBusinessRuleValidation,test_BR055_non_admin_cannot_view_all_users,Validate that non admin cannot view all users
+BR056,Validation (Pytest),TestBusinessRuleValidation,test_BR056_sample_belongs_to_user,Validate that sample belongs to user
+BR057,Validation (Pytest),TestBusinessRuleValidation,test_BR057_other_user_cannot_access_sample,Validate that other user cannot access sample
+BR058,Validation (Pytest),TestBusinessRuleValidation,test_BR058_admin_can_access_any_sample,Validate that admin can access any sample
+BR059,Validation (Pytest),TestBusinessRuleValidation,test_BR059_delete_recalculates_zones,Validate that delete recalculates zones
+BR060,Validation (Pytest),TestBusinessRuleValidation,test_BR060_colony_count_matches_detections_length,Validate that colony count matches detections length
+API001,Validation (Pytest),TestAPIContractValidation,test_API001_upload_has_batchId,Validate that upload has batchId
+API002,Validation (Pytest),TestAPIContractValidation,test_API002_upload_has_applianceType,Validate that upload has applianceType
+API003,Validation (Pytest),TestAPIContractValidation,test_API003_upload_has_dilutionFactor,Validate that upload has dilutionFactor
+API004,Validation (Pytest),TestAPIContractValidation,test_API004_upload_batchId_string,Validate that upload batchId string
+API005,Validation (Pytest),TestAPIContractValidation,test_API005_upload_applianceType_string,Validate that upload applianceType string
+API006,Validation (Pytest),TestAPIContractValidation,test_API006_upload_dilutionFactor_string_or_int,Validate that upload dilutionFactor string or int
+API007,Validation (Pytest),TestAPIContractValidation,test_API007_upload_batchId_not_empty,Validate that upload batchId not empty
+API008,Validation (Pytest),TestAPIContractValidation,test_API008_upload_applianceType_not_empty,Validate that upload applianceType not empty
+API009,Validation (Pytest),TestAPIContractValidation,test_API009_upload_dilutionFactor_positive,Validate that upload dilutionFactor positive
+API010,Validation (Pytest),TestAPIContractValidation,test_API010_upload_optional_comments,Validate that upload optional comments
+API011,Validation (Pytest),TestAPIContractValidation,test_API011_upload_optional_operatorName,Validate that upload optional operatorName
+API012,Validation (Pytest),TestAPIContractValidation,test_API012_upload_no_extra_required_fields,Validate that upload no extra required fields
+API013,Validation (Pytest),TestAPIContractValidation,test_API013_sample_has_id,Validate that sample has id
+API014,Validation (Pytest),TestAPIContractValidation,test_API014_sample_has_batchId,Validate that sample has batchId
+API015,Validation (Pytest),TestAPIContractValidation,test_API015_sample_has_applianceType,Validate that sample has applianceType
+API016,Validation (Pytest),TestAPIContractValidation,test_API016_sample_has_colonyCount,Validate that sample has colonyCount
+API017,Validation (Pytest),TestAPIContractValidation,test_API017_sample_has_cfuCount,Validate that sample has cfuCount
+API018,Validation (Pytest),TestAPIContractValidation,test_API018_sample_has_contaminationRisk,Validate that sample has contaminationRisk
+API019,Validation (Pytest),TestAPIContractValidation,test_API019_sample_has_detections,Validate that sample has detections
+API020,Validation (Pytest),TestAPIContractValidation,test_API020_sample_has_zones,Validate that sample has zones
+API021,Validation (Pytest),TestAPIContractValidation,test_API021_sample_has_originalImageUrl,Validate that sample has originalImageUrl
+API022,Validation (Pytest),TestAPIContractValidation,test_API022_sample_has_processedImageUrl,Validate that sample has processedImageUrl
+API023,Validation (Pytest),TestAPIContractValidation,test_API023_sample_has_userId,Validate that sample has userId
+API024,Validation (Pytest),TestAPIContractValidation,test_API024_sample_has_createdAt,Validate that sample has createdAt
+API025,Validation (Pytest),TestAPIContractValidation,test_API025_sample_id_string,Validate that sample id string
+API026,Validation (Pytest),TestAPIContractValidation,test_API026_sample_colonyCount_int,Validate that sample colonyCount int
+API027,Validation (Pytest),TestAPIContractValidation,test_API027_sample_cfuCount_int,Validate that sample cfuCount int
+API028,Validation (Pytest),TestAPIContractValidation,test_API028_sample_risk_in_valid_set,Validate that sample risk in valid set
+API029,Validation (Pytest),TestAPIContractValidation,test_API029_sample_detections_list,Validate that sample detections list
+API030,Validation (Pytest),TestAPIContractValidation,test_API030_sample_zones_dict,Validate that sample zones dict
+API031,Validation (Pytest),TestAPIContractValidation,test_API031_profile_has_id,Validate that profile has id
+API032,Validation (Pytest),TestAPIContractValidation,test_API032_profile_has_name,Validate that profile has name
+API033,Validation (Pytest),TestAPIContractValidation,test_API033_profile_has_email,Validate that profile has email
+API034,Validation (Pytest),TestAPIContractValidation,test_API034_profile_has_role,Validate that profile has role
+API035,Validation (Pytest),TestAPIContractValidation,test_API035_profile_has_department,Validate that profile has department
+API036,Validation (Pytest),TestAPIContractValidation,test_API036_profile_has_twoFactorEnabled,Validate that profile has twoFactorEnabled
+API037,Validation (Pytest),TestAPIContractValidation,test_API037_profile_has_reportingPreference,Validate that profile has reportingPreference
+API038,Validation (Pytest),TestAPIContractValidation,test_API038_profile_no_password,Validate that profile no password
+API039,Validation (Pytest),TestAPIContractValidation,test_API039_profile_role_valid,Validate that profile role valid
+API040,Validation (Pytest),TestAPIContractValidation,test_API040_profile_email_format,Validate that profile email format
+API041,Validation (Pytest),TestAPIContractValidation,test_API041_profile_twoFactor_bool,Validate that profile twoFactor bool
+API042,Validation (Pytest),TestAPIContractValidation,test_API042_profile_name_string,Validate that profile name string
+API043,Validation (Pytest),TestAPIContractValidation,test_API043_profile_id_string,Validate that profile id string
+API044,Validation (Pytest),TestAPIContractValidation,test_API044_profile_createdAt_string,Validate that profile createdAt string
+API045,Validation (Pytest),TestAPIContractValidation,test_API045_profile_reportingPreference_valid,Validate that profile reportingPreference valid
+API046,Validation (Pytest),TestAPIContractValidation,test_API046_error_has_message,Validate that error has message
+API047,Validation (Pytest),TestAPIContractValidation,test_API047_error_message_string,Validate that error message string
+API048,Validation (Pytest),TestAPIContractValidation,test_API048_error_has_code,Validate that error has code
+API049,Validation (Pytest),TestAPIContractValidation,test_API049_error_code_int,Validate that error code int
+API050,Validation (Pytest),TestAPIContractValidation,test_API050_401_message_unauthorized,Validate that 401 message unauthorized
+API051,Validation (Pytest),TestAPIContractValidation,test_API051_403_message_forbidden,Validate that 403 message forbidden
+API052,Validation (Pytest),TestAPIContractValidation,test_API052_404_message_not_found,Validate that 404 message not found
+API053,Validation (Pytest),TestAPIContractValidation,test_API053_detection_object_has_x,Validate that detection object has x
+API054,Validation (Pytest),TestAPIContractValidation,test_API054_detection_object_has_y,Validate that detection object has y
+API055,Validation (Pytest),TestAPIContractValidation,test_API055_detection_object_has_radius,Validate that detection object has radius
+API056,Validation (Pytest),TestAPIContractValidation,test_API056_detection_confidence_0_to_1,Validate that detection confidence 0 to 1
+API057,Validation (Pytest),TestAPIContractValidation,test_API057_detection_x_non_negative,Validate that detection x non negative
+API058,Validation (Pytest),TestAPIContractValidation,test_API058_detection_y_non_negative,Validate that detection y non negative
+API059,Validation (Pytest),TestAPIContractValidation,test_API059_detection_radius_positive,Validate that detection radius positive
+API060,Validation (Pytest),TestAPIContractValidation,test_API060_zones_inner_non_negative,Validate that zones inner non negative
+BVA001,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA001_colony_0_valid,Validate that colony 0 valid
+BVA002,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA002_colony_1_valid,Validate that colony 1 valid
+BVA003,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA003_colony_negative_invalid,Validate that colony negative invalid
+BVA004,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA004_colony_999_valid,Validate that colony 999 valid
+BVA005,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA005_colony_0_risk_low,Validate that colony 0 risk low
+BVA006,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA006_colony_1_risk_low,Validate that colony 1 risk low
+BVA007,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA007_colony_5_risk_low_boundary,Validate that colony 5 risk low boundary
+BVA008,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA008_colony_6_risk_medium_just_above,Validate that colony 6 risk medium just above
+BVA009,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA009_colony_24_risk_medium_below,Validate that colony 24 risk medium below
+BVA010,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA010_colony_25_risk_medium_boundary,Validate that colony 25 risk medium boundary
+BVA011,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA011_colony_26_risk_high_just_above,Validate that colony 26 risk high just above
+BVA012,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA012_colony_59_risk_high_below,Validate that colony 59 risk high below
+BVA013,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA013_colony_60_risk_high_boundary,Validate that colony 60 risk high boundary
+BVA014,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA014_colony_61_risk_critical_just_above,Validate that colony 61 risk critical just above
+BVA015,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA015_colony_1000_risk_critical,Validate that colony 1000 risk critical
+BVA016,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA016_dilution_1_valid,Validate that dilution 1 valid
+BVA017,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA017_dilution_0_invalid,Validate that dilution 0 invalid
+BVA018,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA018_dilution_negative_invalid,Validate that dilution negative invalid
+BVA019,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA019_dilution_0_5_valid_float,Validate that dilution 0 5 valid float
+BVA020,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA020_dilution_100_valid,Validate that dilution 100 valid
+BVA021,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA021_dilution_1000_valid,Validate that dilution 1000 valid
+BVA022,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA022_dilution_string_invalid,Validate that dilution string invalid
+BVA023,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA023_cfu_0_times_1_is_0,Validate that cfu 0 times 1 is 0
+BVA024,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA024_cfu_1_times_1_is_1,Validate that cfu 1 times 1 is 1
+BVA025,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA025_cfu_max_colony,Validate that cfu max colony
+BVA026,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA026_cfu_max_dilution,Validate that cfu max dilution
+BVA027,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA027_cfu_max_both,Validate that cfu max both
+BVA028,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA028_cfu_rounds_up,Validate that cfu rounds up
+BVA029,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA029_cfu_rounds_down,Validate that cfu rounds down
+BVA030,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA030_batch_1_char_valid,Validate that batch 1 char valid
+BVA031,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA031_batch_0_char_invalid,Validate that batch 0 char invalid
+BVA032,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA032_batch_100_chars_valid,Validate that batch 100 chars valid
+BVA033,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA033_batch_101_chars_invalid,Validate that batch 101 chars invalid
+BVA034,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA034_batch_50_chars_valid,Validate that batch 50 chars valid
+BVA035,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA035_batch_none_invalid,Validate that batch none invalid
+BVA036,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA036_name_1_char_valid,Validate that name 1 char valid
+BVA037,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA037_name_empty_invalid,Validate that name empty invalid
+BVA038,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA038_name_spaces_invalid,Validate that name spaces invalid
+BVA039,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA039_name_100_chars_valid,Validate that name 100 chars valid
+BVA040,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA040_name_300_chars_valid_or_trimmed,Validate that name 300 chars valid or trimmed
+BVA041,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA041_confidence_0_valid,Validate that confidence 0 valid
+BVA042,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA042_confidence_1_valid,Validate that confidence 1 valid
+BVA043,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA043_confidence_0_5_valid,Validate that confidence 0 5 valid
+BVA044,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA044_confidence_below_0_invalid,Validate that confidence below 0 invalid
+BVA045,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA045_confidence_above_1_invalid,Validate that confidence above 1 invalid
+BVA046,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA046_confidence_0_99_valid,Validate that confidence 0 99 valid
+BVA047,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA047_confidence_0_01_valid,Validate that confidence 0 01 valid
+BVA048,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA048_radius_positive_valid,Validate that radius positive valid
+BVA049,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA049_radius_0_invalid,Validate that radius 0 invalid
+BVA050,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA050_radius_negative_invalid,Validate that radius negative invalid
+BVA051,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA051_radius_100_valid,Validate that radius 100 valid
+BVA052,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA052_radius_float_valid,Validate that radius float valid
+BVA053,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA053_x_0_valid,Validate that x 0 valid
+BVA054,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA054_x_negative_invalid,Validate that x negative invalid
+BVA055,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA055_y_0_valid,Validate that y 0 valid
+BVA056,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA056_y_negative_invalid,Validate that y negative invalid
+BVA057,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA057_x_400_valid,Validate that x 400 valid
+BVA058,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA058_y_400_valid,Validate that y 400 valid
+BVA059,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA059_x_beyond_canvas_valid,Validate that x beyond canvas valid
+BVA060,Validation (Pytest),TestBoundaryValueAnalysis,test_BVA060_zone_counts_non_negative,Validate that zone counts non negative
+SEC001,Validation (Pytest),TestSecurityValidation,test_SEC001_basic_script_tag_detected,Validate that basic script tag detected
+SEC002,Validation (Pytest),TestSecurityValidation,test_SEC002_img_onerror_detected,Validate that img onerror detected
+SEC003,Validation (Pytest),TestSecurityValidation,test_SEC003_javascript_url_detected,Validate that javascript url detected
+SEC004,Validation (Pytest),TestSecurityValidation,test_SEC004_onclick_detected,Validate that onclick detected
+SEC005,Validation (Pytest),TestSecurityValidation,test_SEC005_iframe_detected,Validate that iframe detected
+SEC006,Validation (Pytest),TestSecurityValidation,test_SEC006_plain_text_not_xss,Validate that plain text not xss
+SEC007,Validation (Pytest),TestSecurityValidation,test_SEC007_batch_id_not_xss,Validate that batch id not xss
+SEC008,Validation (Pytest),TestSecurityValidation,test_SEC008_email_not_xss,Validate that email not xss
+SEC009,Validation (Pytest),TestSecurityValidation,test_SEC009_sanitize_removes_lt,Validate that sanitize removes lt
+SEC010,Validation (Pytest),TestSecurityValidation,test_SEC010_sanitize_removes_gt,Validate that sanitize removes gt
+SEC011,Validation (Pytest),TestSecurityValidation,test_SEC011_sanitize_normal_text,Validate that sanitize normal text
+SEC012,Validation (Pytest),TestSecurityValidation,test_SEC012_sanitize_empty,Validate that sanitize empty
+SEC013,Validation (Pytest),TestSecurityValidation,test_SEC013_sanitize_amp,Validate that sanitize amp
+SEC014,Validation (Pytest),TestSecurityValidation,test_SEC014_sanitize_quote,Validate that sanitize quote
+SEC015,Validation (Pytest),TestSecurityValidation,test_SEC015_sanitize_apostrophe,Validate that sanitize apostrophe
+SEC016,Validation (Pytest),TestSecurityValidation,test_SEC016_sanitize_slash,Validate that sanitize slash
+SEC017,Validation (Pytest),TestSecurityValidation,test_SEC017_sanitize_number,Validate that sanitize number
+SEC018,Validation (Pytest),TestSecurityValidation,test_SEC018_sanitize_none,Validate that sanitize none
+SEC019,Validation (Pytest),TestSecurityValidation,test_SEC019_sanitize_sql_injection,Validate that sanitize sql injection
+SEC020,Validation (Pytest),TestSecurityValidation,test_SEC020_sanitize_preserves_batch_id,Validate that sanitize preserves batch id
+SEC021,Validation (Pytest),TestSecurityValidation,test_SEC021_valid_email,Validate that valid email
+SEC022,Validation (Pytest),TestSecurityValidation,test_SEC022_invalid_email_no_at,Validate that invalid email no at
+SEC023,Validation (Pytest),TestSecurityValidation,test_SEC023_invalid_email_no_domain,Validate that invalid email no domain
+SEC024,Validation (Pytest),TestSecurityValidation,test_SEC024_invalid_email_no_tld,Validate that invalid email no tld
+SEC025,Validation (Pytest),TestSecurityValidation,test_SEC025_valid_email_subdomain,Validate that valid email subdomain
+SEC026,Validation (Pytest),TestSecurityValidation,test_SEC026_valid_email_plus,Validate that valid email plus
+SEC027,Validation (Pytest),TestSecurityValidation,test_SEC027_invalid_email_spaces,Validate that invalid email spaces
+SEC028,Validation (Pytest),TestSecurityValidation,test_SEC028_invalid_email_double_at,Validate that invalid email double at
+SEC029,Validation (Pytest),TestSecurityValidation,test_SEC029_valid_email_numbers,Validate that valid email numbers
+SEC030,Validation (Pytest),TestSecurityValidation,test_SEC030_valid_email_hyphen_domain,Validate that valid email hyphen domain
+SEC031,Validation (Pytest),TestSecurityValidation,test_SEC031_only_admin_can_delete_user,Validate that only admin can delete user
+SEC032,Validation (Pytest),TestSecurityValidation,test_SEC032_admin_can_delete_user,Validate that admin can delete user
+SEC033,Validation (Pytest),TestSecurityValidation,test_SEC033_cannot_elevate_to_admin_without_permission,Validate that cannot elevate to admin without permission
+SEC034,Validation (Pytest),TestSecurityValidation,test_SEC034_token_required,Validate that token required
+SEC035,Validation (Pytest),TestSecurityValidation,test_SEC035_expired_token_rejected,Validate that expired token rejected
+SEC036,Validation (Pytest),TestSecurityValidation,test_SEC036_csrf_header_required,Validate that csrf header required
+SEC037,Validation (Pytest),TestSecurityValidation,test_SEC037_rate_limit_exists,Validate that rate limit exists
+SEC038,Validation (Pytest),TestSecurityValidation,test_SEC038_no_info_in_error,Validate that no info in error
+SEC039,Validation (Pytest),TestSecurityValidation,test_SEC039_password_not_stored_plain,Validate that password not stored plain
+SEC040,Validation (Pytest),TestSecurityValidation,test_SEC040_no_token_in_response_body,Validate that no token in response body
+SEC041,Validation (Pytest),TestSecurityValidation,test_SEC041_name_max_300_chars,Validate that name max 300 chars
+SEC042,Validation (Pytest),TestSecurityValidation,test_SEC042_name_500_chars_rejected,Validate that name 500 chars rejected
+SEC043,Validation (Pytest),TestSecurityValidation,test_SEC043_batch_id_max_100_chars,Validate that batch id max 100 chars
+SEC044,Validation (Pytest),TestSecurityValidation,test_SEC044_batch_id_101_chars_too_long,Validate that batch id 101 chars too long
+SEC045,Validation (Pytest),TestSecurityValidation,test_SEC045_comments_max_5000_chars,Validate that comments max 5000 chars
+SEC046,Validation (Pytest),TestSecurityValidation,test_SEC046_department_max_100_chars,Validate that department max 100 chars
+SEC047,Validation (Pytest),TestSecurityValidation,test_SEC047_sql_in_batchId_handled,Validate that sql in batchId handled
+SEC048,Validation (Pytest),TestSecurityValidation,test_SEC048_nosql_injection_handled,Validate that nosql injection handled
+SEC049,Validation (Pytest),TestSecurityValidation,test_SEC049_prototype_pollution_handled,Validate that prototype pollution handled
+SEC050,Validation (Pytest),TestSecurityValidation,test_SEC050_path_traversal_handled,Validate that path traversal handled
+SEC051,Validation (Pytest),TestSecurityValidation,test_SEC051_response_no_stack_trace,Validate that response no stack trace
+SEC052,Validation (Pytest),TestSecurityValidation,test_SEC052_response_no_internal_path,Validate that response no internal path
+SEC053,Validation (Pytest),TestSecurityValidation,test_SEC053_response_no_firebase_key,Validate that response no firebase key
+SEC054,Validation (Pytest),TestSecurityValidation,test_SEC054_response_no_secret,Validate that response no secret
+SEC055,Validation (Pytest),TestSecurityValidation,test_SEC055_json_response_not_html,Validate that json response not html
+SEC056,Validation (Pytest),TestSecurityValidation,test_SEC056_cors_specific_origin,Validate that cors specific origin
+SEC057,Validation (Pytest),TestSecurityValidation,test_SEC057_csrf_required_for_mutations,Validate that csrf required for mutations
+SEC058,Validation (Pytest),TestSecurityValidation,test_SEC058_helmet_headers_expected,Validate that helmet headers expected
+SEC059,Validation (Pytest),TestSecurityValidation,test_SEC059_https_in_production,Validate that https in production
+SEC060,Validation (Pytest),TestSecurityValidation,test_SEC060_bearer_prefix_required,Validate that bearer prefix required
+INT001,Validation (Pytest),TestIntegrationValidation,test_INT001_workflow_produces_sample,Validate that workflow produces sample
+INT002,Validation (Pytest),TestIntegrationValidation,test_INT002_colony_count_matches,Validate that colony count matches
+INT003,Validation (Pytest),TestIntegrationValidation,test_INT003_cfu_derived_from_colony_and_dilution,Validate that cfu derived from colony and dilution
+INT004,Validation (Pytest),TestIntegrationValidation,test_INT004_risk_derived_from_colony_count,Validate that risk derived from colony count
+INT005,Validation (Pytest),TestIntegrationValidation,test_INT005_risk_medium_for_15_colonies,Validate that risk medium for 15 colonies
+INT006,Validation (Pytest),TestIntegrationValidation,test_INT006_detections_length_matches_colony_count,Validate that detections length matches colony count
+INT007,Validation (Pytest),TestIntegrationValidation,test_INT007_zones_sum_matches_colony_count,Validate that zones sum matches colony count
+INT008,Validation (Pytest),TestIntegrationValidation,test_INT008_batchId_in_result,Validate that batchId in result
+INT009,Validation (Pytest),TestIntegrationValidation,test_INT009_all_required_fields_present,Validate that all required fields present
+INT010,Validation (Pytest),TestIntegrationValidation,test_INT010_workflow_with_zero_colonies,Validate that workflow with zero colonies
+INT011,Validation (Pytest),TestIntegrationValidation,test_INT011_cfu_scales_with_dilution,Validate that cfu scales with dilution
+INT012,Validation (Pytest),TestIntegrationValidation,test_INT012_risk_changes_at_boundary,Validate that risk changes at boundary
+INT013,Validation (Pytest),TestIntegrationValidation,test_INT013_multiple_workflows_independent,Validate that multiple workflows independent
+INT014,Validation (Pytest),TestIntegrationValidation,test_INT014_zones_are_dict,Validate that zones are dict
+INT015,Validation (Pytest),TestIntegrationValidation,test_INT015_detections_are_list,Validate that detections are list
+INT016,Validation (Pytest),TestIntegrationValidation,test_INT016_each_detection_has_x_y_radius,Validate that each detection has x y radius
+INT017,Validation (Pytest),TestIntegrationValidation,test_INT017_detections_confidence_valid,Validate that detections confidence valid
+INT018,Validation (Pytest),TestIntegrationValidation,test_INT018_zone_values_non_negative,Validate that zone values non negative
+INT019,Validation (Pytest),TestIntegrationValidation,test_INT019_colony_count_non_negative,Validate that colony count non negative
+INT020,Validation (Pytest),TestIntegrationValidation,test_INT020_cfu_count_non_negative,Validate that cfu count non negative
+INT021,Validation (Pytest),TestIntegrationValidation,test_INT021_csv_header_has_batchId,Validate that csv header has batchId
+INT022,Validation (Pytest),TestIntegrationValidation,test_INT022_csv_header_has_colonyCount,Validate that csv header has colonyCount
+INT023,Validation (Pytest),TestIntegrationValidation,test_INT023_csv_header_has_cfuCount,Validate that csv header has cfuCount
+INT024,Validation (Pytest),TestIntegrationValidation,test_INT024_csv_header_has_risk,Validate that csv header has risk
+INT025,Validation (Pytest),TestIntegrationValidation,test_INT025_csv_row_matches_sample,Validate that csv row matches sample
+INT026,Validation (Pytest),TestIntegrationValidation,test_INT026_csv_no_html_in_data,Validate that csv no html in data
+INT027,Validation (Pytest),TestIntegrationValidation,test_INT027_pdf_requires_sample_data,Validate that pdf requires sample data
+INT028,Validation (Pytest),TestIntegrationValidation,test_INT028_pdf_includes_batch_id,Validate that pdf includes batch id
+INT029,Validation (Pytest),TestIntegrationValidation,test_INT029_pdf_includes_risk_level,Validate that pdf includes risk level
+INT030,Validation (Pytest),TestIntegrationValidation,test_INT030_pdf_includes_cfu_count,Validate that pdf includes cfu count
+INT031,Validation (Pytest),TestIntegrationValidation,test_INT031_update_detections_recalculates_count,Validate that update detections recalculates count
+INT032,Validation (Pytest),TestIntegrationValidation,test_INT032_update_detections_recalculates_cfu,Validate that update detections recalculates cfu
+INT033,Validation (Pytest),TestIntegrationValidation,test_INT033_update_detections_recalculates_risk,Validate that update detections recalculates risk
+INT034,Validation (Pytest),TestIntegrationValidation,test_INT034_update_detections_recalculates_zones,Validate that update detections recalculates zones
+INT035,Validation (Pytest),TestIntegrationValidation,test_INT035_update_empty_detections_resets_count,Validate that update empty detections resets count
+INT036,Validation (Pytest),TestIntegrationValidation,test_INT036_sample_userId_set_on_upload,Validate that sample userId set on upload
+INT037,Validation (Pytest),TestIntegrationValidation,test_INT037_sample_createdAt_set,Validate that sample createdAt set
+INT038,Validation (Pytest),TestIntegrationValidation,test_INT038_user_cannot_delete_others_sample,Validate that user cannot delete others sample
+INT039,Validation (Pytest),TestIntegrationValidation,test_INT039_admin_can_see_all_samples,Validate that admin can see all samples
+INT040,Validation (Pytest),TestIntegrationValidation,test_INT040_profile_registered_after_signup,Validate that profile registered after signup
+REG001,Validation (Pytest),TestRegressionValidation,test_REG001_sample_id_is_string,Validate that sample id is string
+REG002,Validation (Pytest),TestRegressionValidation,test_REG002_user_id_is_string,Validate that user id is string
+REG003,Validation (Pytest),TestRegressionValidation,test_REG003_id_generated_without_uuid,Validate that id generated without uuid
+REG004,Validation (Pytest),TestRegressionValidation,test_REG004_settings_update_uses_correct_context,Validate that settings update uses correct context
+REG005,Validation (Pytest),TestRegressionValidation,test_REG005_unused_imports_cleaned,Validate that unused imports cleaned
+REG006,Validation (Pytest),TestRegressionValidation,test_REG006_settings_endpoint_exists,Validate that settings endpoint exists
+REG007,Validation (Pytest),TestRegressionValidation,test_REG007_pdf_department_from_firestore,Validate that pdf department from firestore
+REG008,Validation (Pytest),TestRegressionValidation,test_REG008_colspan_jsx_attribute,Validate that colspan jsx attribute
+REG009,Validation (Pytest),TestRegressionValidation,test_REG009_not_html_colspan,Validate that not html colspan
+REG010,Validation (Pytest),TestRegressionValidation,test_REG010_admin_history_key_defined,Validate that admin history key defined
+REG011,Validation (Pytest),TestRegressionValidation,test_REG011_history_key_uses_sample_id,Validate that history key uses sample id
+REG012,Validation (Pytest),TestRegressionValidation,test_REG012_no_xss_in_stored_batchId,Validate that no xss in stored batchId
+REG013,Validation (Pytest),TestRegressionValidation,test_REG013_colony_count_never_negative,Validate that colony count never negative
+REG014,Validation (Pytest),TestRegressionValidation,test_REG014_risk_level_always_valid,Validate that risk level always valid
+REG015,Validation (Pytest),TestRegressionValidation,test_REG015_cfu_gte_colony_when_dilution_gte_1,Validate that cfu gte colony when dilution gte 1
+REG016,Validation (Pytest),TestRegressionValidation,test_REG016_zones_sum_consistency,Validate that zones sum consistency
+REG017,Validation (Pytest),TestRegressionValidation,test_REG017_delete_removes_record,Validate that delete removes record
+REG018,Validation (Pytest),TestRegressionValidation,test_REG018_duplicate_profile_prevented,Validate that duplicate profile prevented
+REG019,Validation (Pytest),TestRegressionValidation,test_REG019_admin_role_required,Validate that admin role required
+REG020,Validation (Pytest),TestRegressionValidation,test_REG020_expired_token_rejected,Validate that expired token rejected
+LP001,End-to-End (Selenium),General,test_LP001_page_loads,Verify E2E flow for page loads
+LP002,End-to-End (Selenium),General,test_LP002_title_not_empty,Verify E2E flow for title not empty
+LP003,End-to-End (Selenium),General,test_LP003_body_has_content,Verify E2E flow for body has content
+LP004,End-to-End (Selenium),General,test_LP004_no_404_text,Verify E2E flow for no 404 text
+LP005,End-to-End (Selenium),General,test_LP005_no_500_text,Verify E2E flow for no 500 text
+LP006,End-to-End (Selenium),General,test_LP006_react_root_mounted,Verify E2E flow for react root mounted
+LP007,End-to-End (Selenium),General,test_LP007_react_root_has_children,Verify E2E flow for react root has children
+LP008,End-to-End (Selenium),General,test_LP008_login_link_exists,Verify E2E flow for login link exists
+LP009,End-to-End (Selenium),General,test_LP009_signup_link_exists,Verify E2E flow for signup link exists
+LP010,End-to-End (Selenium),General,test_LP010_h1_exists,Verify E2E flow for h1 exists
+LP011,End-to-End (Selenium),General,test_LP011_headings_exist,Verify E2E flow for headings exist
+LP012,End-to-End (Selenium),General,test_LP012_nav_or_header,Verify E2E flow for nav or header
+LP013,End-to-End (Selenium),General,test_LP013_css_loaded,Verify E2E flow for css loaded
+LP014,End-to-End (Selenium),General,test_LP014_js_scripts_loaded,Verify E2E flow for js scripts loaded
+LP015,End-to-End (Selenium),General,test_LP015_html_lang_attr,Verify E2E flow for html lang attr
+LP016,End-to-End (Selenium),General,test_LP016_meta_charset,Verify E2E flow for meta charset
+LP017,End-to-End (Selenium),General,test_LP017_viewport_meta,Verify E2E flow for viewport meta
+LP018,End-to-End (Selenium),General,test_LP018_title_tag,Verify E2E flow for title tag
+LP019,End-to-End (Selenium),General,test_LP019_head_exists,Verify E2E flow for head exists
+LP020,End-to-End (Selenium),General,test_LP020_body_not_empty_html,Verify E2E flow for body not empty html
+LP021,End-to-End (Selenium),General,test_LP021_images_alt_attrs,Verify E2E flow for images alt attrs
+LP022,End-to-End (Selenium),General,test_LP022_links_have_href,Verify E2E flow for links have href
+LP023,End-to-End (Selenium),General,test_LP023_page_scroll_works,Verify E2E flow for page scroll works
+LP024,End-to-End (Selenium),General,test_LP024_scroll_to_top,Verify E2E flow for scroll to top
+LP025,End-to-End (Selenium),General,test_LP025_microbe_or_colony_brand,Verify E2E flow for microbe or colony brand
+LP026,End-to-End (Selenium),General,test_LP026_no_object_object_text,Verify E2E flow for no object object text
+LP027,End-to-End (Selenium),General,test_LP027_no_undefined_text_in_page,Verify E2E flow for no undefined text in page
+LP028,End-to-End (Selenium),General,test_LP028_no_null_text,Verify E2E flow for no null text
+LP029,End-to-End (Selenium),General,test_LP029_buttons_exist,Verify E2E flow for buttons exist
+LP030,End-to-End (Selenium),General,test_LP030_multiple_sections,Verify E2E flow for multiple sections
+LP031,End-to-End (Selenium),General,test_LP031_body_background_set,Verify E2E flow for body background set
+LP032,End-to-End (Selenium),General,test_LP032_font_family_set,Verify E2E flow for font family set
+LP033,End-to-End (Selenium),General,test_LP033_no_react_error_boundary,Verify E2E flow for no react error boundary
+LP034,End-to-End (Selenium),General,test_LP034_no_chunk_load_error,Verify E2E flow for no chunk load error
+LP035,End-to-End (Selenium),General,test_LP035_no_stack_trace,Verify E2E flow for no stack trace
+LP036,End-to-End (Selenium),General,test_LP036_no_type_error,Verify E2E flow for no type error
+LP037,End-to-End (Selenium),General,test_LP037_1440px_no_overflow,Verify E2E flow for 1440px no overflow
+LP038,End-to-End (Selenium),General,test_LP038_keyboard_tab_works,Verify E2E flow for keyboard tab works
+LP039,End-to-End (Selenium),General,test_LP039_page_loads_fast,Verify E2E flow for page loads fast
+LP040,End-to-End (Selenium),General,test_LP040_login_navigates,Verify E2E flow for login navigates
+LP041,End-to-End (Selenium),General,test_LP041_signup_navigates,Verify E2E flow for signup navigates
+LP042,End-to-End (Selenium),General,test_LP042_page_title_not_undefined,Verify E2E flow for page title not undefined
+LP043,End-to-End (Selenium),General,test_LP043_page_title_not_null,Verify E2E flow for page title not null
+LP044,End-to-End (Selenium),General,test_LP044_color_not_system_default,Verify E2E flow for color not system default
+LP045,End-to-End (Selenium),General,test_LP045_line_height_set,Verify E2E flow for line height set
+LP046,End-to-End (Selenium),General,test_LP046_font_loaded,Verify E2E flow for font loaded
+LP047,End-to-End (Selenium),General,test_LP047_xss_in_url_handled,Verify E2E flow for xss in url handled
+LP048,End-to-End (Selenium),General,test_LP048_page_reloads_correctly,Verify E2E flow for page reloads correctly
+LP049,End-to-End (Selenium),General,test_LP049_dom_node_count_sane,Verify E2E flow for dom node count sane
+LP050,End-to-End (Selenium),General,test_LP050_no_duplicate_ids,Verify E2E flow for no duplicate ids
+LP051,End-to-End (Selenium),General,test_LP051_footer_if_exists_is_visible,Verify E2E flow for footer if exists is visible
+LP052,End-to-End (Selenium),General,test_LP052_mobile_375px_renders,Verify E2E flow for mobile 375px renders
+LP053,End-to-End (Selenium),General,test_LP053_tablet_768px_renders,Verify E2E flow for tablet 768px renders
+LP054,End-to-End (Selenium),General,test_LP054_no_cors_error_in_body,Verify E2E flow for no cors error in body
+LP055,End-to-End (Selenium),General,test_LP055_google_fonts_or_custom_font,Verify E2E flow for google fonts or custom font
+LG001,End-to-End (Selenium),General,test_LG001_page_loads,Verify E2E flow for page loads
+LG002,End-to-End (Selenium),General,test_LG002_url_contains_login,Verify E2E flow for url contains login
+LG003,End-to-End (Selenium),General,test_LG003_form_exists,Verify E2E flow for form exists
+LG004,End-to-End (Selenium),General,test_LG004_email_input_exists,Verify E2E flow for email input exists
+LG005,End-to-End (Selenium),General,test_LG005_password_input_exists,Verify E2E flow for password input exists
+LG006,End-to-End (Selenium),General,test_LG006_submit_button_exists,Verify E2E flow for submit button exists
+LG007,End-to-End (Selenium),General,test_LG007_heading_visible,Verify E2E flow for heading visible
+LG008,End-to-End (Selenium),General,test_LG008_login_text_in_page,Verify E2E flow for login text in page
+LG009,End-to-End (Selenium),General,test_LG009_email_accepts_input,Verify E2E flow for email accepts input
+LG010,End-to-End (Selenium),General,test_LG010_password_field_masked,Verify E2E flow for password field masked
+LG011,End-to-End (Selenium),General,test_LG011_password_accepts_input,Verify E2E flow for password accepts input
+LG012,End-to-End (Selenium),General,test_LG012_labels_exist,Verify E2E flow for labels exist
+LG013,End-to-End (Selenium),General,test_LG013_forgot_link_exists,Verify E2E flow for forgot link exists
+LG014,End-to-End (Selenium),General,test_LG014_signup_link_exists,Verify E2E flow for signup link exists
+LG015,End-to-End (Selenium),General,test_LG015_email_placeholder_exists,Verify E2E flow for email placeholder exists
+LG016,End-to-End (Selenium),General,test_LG016_password_placeholder_exists,Verify E2E flow for password placeholder exists
+LG017,End-to-End (Selenium),General,test_LG017_email_is_required,Verify E2E flow for email is required
+LG018,End-to-End (Selenium),General,test_LG018_password_is_required,Verify E2E flow for password is required
+LG019,End-to-End (Selenium),General,test_LG019_empty_submit_no_redirect,Verify E2E flow for empty submit no redirect
+LG020,End-to-End (Selenium),General,test_LG020_invalid_email_no_redirect,Verify E2E flow for invalid email no redirect
+LG021,End-to-End (Selenium),General,test_LG021_wrong_creds_no_redirect,Verify E2E flow for wrong creds no redirect
+LG022,End-to-End (Selenium),General,test_LG022_tab_email_to_password,Verify E2E flow for tab email to password
+LG023,End-to-End (Selenium),General,test_LG023_enter_in_password_submits,Verify E2E flow for enter in password submits
+LG024,End-to-End (Selenium),General,test_LG024_email_clears,Verify E2E flow for email clears
+LG025,End-to-End (Selenium),General,test_LG025_password_clears,Verify E2E flow for password clears
+LG026,End-to-End (Selenium),General,test_LG026_xss_in_email_no_alert,Verify E2E flow for xss in email no alert
+LG027,End-to-End (Selenium),General,test_LG027_long_email_handled,Verify E2E flow for long email handled
+LG028,End-to-End (Selenium),General,test_LG028_long_password_handled,Verify E2E flow for long password handled
+LG029,End-to-End (Selenium),General,test_LG029_page_not_blank,Verify E2E flow for page not blank
+LG030,End-to-End (Selenium),General,test_LG030_no_console_crash,Verify E2E flow for no console crash
+LG031,End-to-End (Selenium),General,test_LG031_forgot_link_navigates,Verify E2E flow for forgot link navigates
+LG032,End-to-End (Selenium),General,test_LG032_signup_link_navigates,Verify E2E flow for signup link navigates
+LG033,End-to-End (Selenium),General,test_LG033_submit_button_type_submit,Verify E2E flow for submit button type submit
+LG034,End-to-End (Selenium),General,test_LG034_form_not_multipart,Verify E2E flow for form not multipart
+LG035,End-to-End (Selenium),General,test_LG035_focus_highlights_input,Verify E2E flow for focus highlights input
+LG036,End-to-End (Selenium),General,test_LG036_button_background_styled,Verify E2E flow for button background styled
+LG037,End-to-End (Selenium),General,test_LG037_form_has_border_radius,Verify E2E flow for form has border radius
+LG038,End-to-End (Selenium),General,test_LG038_input_border_radius,Verify E2E flow for input border radius
+LG039,End-to-End (Selenium),General,test_LG039_page_background_styled,Verify E2E flow for page background styled
+LG040,End-to-End (Selenium),General,test_LG040_form_shadow_visible,Verify E2E flow for form shadow visible
+LG041,End-to-End (Selenium),General,test_LG041_mobile_375px,Verify E2E flow for mobile 375px
+LG042,End-to-End (Selenium),General,test_LG042_tablet_768px,Verify E2E flow for tablet 768px
+LG043,End-to-End (Selenium),General,test_LG043_protected_route_redirects,Verify E2E flow for protected route redirects
+LG044,End-to-End (Selenium),General,test_LG044_page_reload_stays_login,Verify E2E flow for page reload stays login
+LG045,End-to-End (Selenium),General,test_LG045_no_react_error_boundary,Verify E2E flow for no react error boundary
+LG046,End-to-End (Selenium),General,test_LG046_no_stack_trace_visible,Verify E2E flow for no stack trace visible
+LG047,End-to-End (Selenium),General,test_LG047_heading_text_not_empty,Verify E2E flow for heading text not empty
+LG048,End-to-End (Selenium),General,test_LG048_button_text_meaningful,Verify E2E flow for button text meaningful
+LG049,End-to-End (Selenium),General,test_LG049_input_height_sufficient,Verify E2E flow for input height sufficient
+LG050,End-to-End (Selenium),General,test_LG050_input_width_fills_container,Verify E2E flow for input width fills container
+LG051,End-to-End (Selenium),General,test_LG051_form_width_not_tiny,Verify E2E flow for form width not tiny
+LG052,End-to-End (Selenium),General,test_LG052_form_height_not_tiny,Verify E2E flow for form height not tiny
+LG053,End-to-End (Selenium),General,test_LG053_submit_button_not_disabled_initially,Verify E2E flow for submit button not disabled initially
+LG054,End-to-End (Selenium),General,test_LG054_no_empty_buttons,Verify E2E flow for no empty buttons
+LG055,End-to-End (Selenium),General,test_LG055_language_is_english,Verify E2E flow for language is english
+LG056,End-to-End (Selenium),General,test_LG056_links_have_color,Verify E2E flow for links have color
+LG057,End-to-End (Selenium),General,test_LG057_transition_on_button,Verify E2E flow for transition on button
+LG058,End-to-End (Selenium),General,test_LG058_no_horizontal_scrollbar,Verify E2E flow for no horizontal scrollbar
+LG059,End-to-End (Selenium),General,test_LG059_form_autocomplete,Verify E2E flow for form autocomplete
+LG060,End-to-End (Selenium),General,test_LG060_click_outside_unfocuses,Verify E2E flow for click outside unfocuses
+LG061,End-to-End (Selenium),General,test_LG061_form_visible_on_load,Verify E2E flow for form visible on load
+LG062,End-to-End (Selenium),General,test_LG062_email_type_attribute,Verify E2E flow for email type attribute
+LG063,End-to-End (Selenium),General,test_LG063_button_pointer_cursor,Verify E2E flow for button pointer cursor
+LG064,End-to-End (Selenium),General,test_LG064_password_autocomplete,Verify E2E flow for password autocomplete
+LG065,End-to-End (Selenium),General,test_LG065_unique_element_ids,Verify E2E flow for unique element ids
+LG066,End-to-End (Selenium),General,test_LG066_brand_on_login_page,Verify E2E flow for brand on login page
+LG067,End-to-End (Selenium),General,test_LG067_no_unhandled_promise_rejection,Verify E2E flow for no unhandled promise rejection
+LG068,End-to-End (Selenium),General,test_LG068_form_role_accessible,Verify E2E flow for form role accessible
+LG069,End-to-End (Selenium),General,test_LG069_copy_paste_in_email,Verify E2E flow for copy paste in email
+LG070,End-to-End (Selenium),General,test_LG070_submit_no_navigation_on_empty,Verify E2E flow for submit no navigation on empty
+LG071,End-to-End (Selenium),General,test_LG071_500px_width_renders,Verify E2E flow for 500px width renders
+LG072,End-to-End (Selenium),General,test_LG072_1920px_renders,Verify E2E flow for 1920px renders
+LG073,End-to-End (Selenium),General,test_LG073_rapid_typing_handled,Verify E2E flow for rapid typing handled
+LG074,End-to-End (Selenium),General,test_LG074_browser_back_from_login,Verify E2E flow for browser back from login
+LG075,End-to-End (Selenium),General,test_LG075_page_has_exactly_one_form,Verify E2E flow for page has exactly one form
+SU001,End-to-End (Selenium),General,test_SU001_page_loads,Verify E2E flow for page loads
+SU002,End-to-End (Selenium),General,test_SU002_url_contains_signup,Verify E2E flow for url contains signup
+SU003,End-to-End (Selenium),General,test_SU003_form_exists,Verify E2E flow for form exists
+SU004,End-to-End (Selenium),General,test_SU004_name_input_exists,Verify E2E flow for name input exists
+SU005,End-to-End (Selenium),General,test_SU005_email_input_exists,Verify E2E flow for email input exists
+SU006,End-to-End (Selenium),General,test_SU006_password_input_exists,Verify E2E flow for password input exists
+SU007,End-to-End (Selenium),General,test_SU007_submit_button_exists,Verify E2E flow for submit button exists
+SU008,End-to-End (Selenium),General,test_SU008_role_select_exists,Verify E2E flow for role select exists
+SU009,End-to-End (Selenium),General,test_SU009_department_field_in_page,Verify E2E flow for department field in page
+SU010,End-to-End (Selenium),General,test_SU010_labels_exist,Verify E2E flow for labels exist
+SU011,End-to-End (Selenium),General,test_SU011_login_link_exists,Verify E2E flow for login link exists
+SU012,End-to-End (Selenium),General,test_SU012_heading_exists,Verify E2E flow for heading exists
+SU013,End-to-End (Selenium),General,test_SU013_create_or_signup_text_in_page,Verify E2E flow for create or signup text in page
+SU014,End-to-End (Selenium),General,test_SU014_email_accepts_input,Verify E2E flow for email accepts input
+SU015,End-to-End (Selenium),General,test_SU015_name_accepts_input,Verify E2E flow for name accepts input
+SU016,End-to-End (Selenium),General,test_SU016_password_is_masked,Verify E2E flow for password is masked
+SU017,End-to-End (Selenium),General,test_SU017_role_has_options,Verify E2E flow for role has options
+SU018,End-to-End (Selenium),General,test_SU018_lab_technician_option,Verify E2E flow for lab technician option
+SU019,End-to-End (Selenium),General,test_SU019_researcher_option,Verify E2E flow for researcher option
+SU020,End-to-End (Selenium),General,test_SU020_empty_submit_no_redirect,Verify E2E flow for empty submit no redirect
+SU021,End-to-End (Selenium),General,test_SU021_invalid_email_no_redirect,Verify E2E flow for invalid email no redirect
+SU022,End-to-End (Selenium),General,test_SU022_role_can_change,Verify E2E flow for role can change
+SU023,End-to-End (Selenium),General,test_SU023_login_link_navigates,Verify E2E flow for login link navigates
+SU024,End-to-End (Selenium),General,test_SU024_required_inputs_marked,Verify E2E flow for required inputs marked
+SU025,End-to-End (Selenium),General,test_SU025_mobile_375px,Verify E2E flow for mobile 375px
+SU026,End-to-End (Selenium),General,test_SU026_no_react_error_boundary,Verify E2E flow for no react error boundary
+SU027,End-to-End (Selenium),General,test_SU027_all_visible_inputs_enabled,Verify E2E flow for all visible inputs enabled
+SU028,End-to-End (Selenium),General,test_SU028_select_default_has_value,Verify E2E flow for select default has value
+SU029,End-to-End (Selenium),General,test_SU029_form_width_not_tiny,Verify E2E flow for form width not tiny
+SU030,End-to-End (Selenium),General,test_SU030_page_not_blank,Verify E2E flow for page not blank
+SU031,End-to-End (Selenium),General,test_SU031_page_title_not_empty,Verify E2E flow for page title not empty
+SU032,End-to-End (Selenium),General,test_SU032_no_stack_trace,Verify E2E flow for no stack trace
+SU033,End-to-End (Selenium),General,test_SU033_xss_in_name_no_alert,Verify E2E flow for xss in name no alert
+SU034,End-to-End (Selenium),General,test_SU034_password_strength_no_crash,Verify E2E flow for password strength no crash
+SU035,End-to-End (Selenium),General,test_SU035_tab_cycles_through_inputs,Verify E2E flow for tab cycles through inputs
+SU036,End-to-End (Selenium),General,test_SU036_labels_not_empty,Verify E2E flow for labels not empty
+SU037,End-to-End (Selenium),General,test_SU037_button_cursor_pointer,Verify E2E flow for button cursor pointer
+SU038,End-to-End (Selenium),General,test_SU038_unique_ids,Verify E2E flow for unique ids
+SU039,End-to-End (Selenium),General,test_SU039_form_scrollable_if_tall,Verify E2E flow for form scrollable if tall
+SU040,End-to-End (Selenium),General,test_SU040_brand_visible,Verify E2E flow for brand visible
+SU041,End-to-End (Selenium),General,test_SU041_page_reload_works,Verify E2E flow for page reload works
+SU042,End-to-End (Selenium),General,test_SU042_department_accepts_input,Verify E2E flow for department accepts input
+SU043,End-to-End (Selenium),General,test_SU043_long_name_handled,Verify E2E flow for long name handled
+SU044,End-to-End (Selenium),General,test_SU044_button_has_text,Verify E2E flow for button has text
+SU045,End-to-End (Selenium),General,test_SU045_button_background_styled,Verify E2E flow for button background styled
+SU046,End-to-End (Selenium),General,test_SU046_password_accepts_special_chars,Verify E2E flow for password accepts special chars
+SU047,End-to-End (Selenium),General,test_SU047_no_horizontal_scrollbar,Verify E2E flow for no horizontal scrollbar
+SU048,End-to-End (Selenium),General,test_SU048_1920px_renders,Verify E2E flow for 1920px renders
+SU049,End-to-End (Selenium),General,test_SU049_back_button_works,Verify E2E flow for back button works
+SU050,End-to-End (Selenium),General,test_SU050_no_undefined_in_body,Verify E2E flow for no undefined in body
+SU051,End-to-End (Selenium),General,test_SU051_form_height_sufficient,Verify E2E flow for form height sufficient
+SU052,End-to-End (Selenium),General,test_SU052_input_padding_applied,Verify E2E flow for input padding applied
+SU053,End-to-End (Selenium),General,test_SU053_select_is_visible,Verify E2E flow for select is visible
+SU054,End-to-End (Selenium),General,test_SU054_select_has_padding,Verify E2E flow for select has padding
+SU055,End-to-End (Selenium),General,test_SU055_label_font_weight,Verify E2E flow for label font weight
+SU056,End-to-End (Selenium),General,test_SU056_form_box_shadow_or_border,Verify E2E flow for form box shadow or border
+SU057,End-to-End (Selenium),General,test_SU057_inputs_have_border_radius,Verify E2E flow for inputs have border radius
+SU058,End-to-End (Selenium),General,test_SU058_email_field_name_attr,Verify E2E flow for email field name attr
+SU059,End-to-End (Selenium),General,test_SU059_submit_button_type_submit,Verify E2E flow for submit button type submit
+SU060,End-to-End (Selenium),General,test_SU060_all_selects_have_options,Verify E2E flow for all selects have options
+SU061,End-to-End (Selenium),General,test_SU061_role_admin_option_may_exist,Verify E2E flow for role admin option may exist
+SU062,End-to-End (Selenium),General,test_SU062_page_fonts_loaded,Verify E2E flow for page fonts loaded
+SU063,End-to-End (Selenium),General,test_SU063_form_centered_or_aligned,Verify E2E flow for form centered or aligned
+SU064,End-to-End (Selenium),General,test_SU064_button_not_disabled_initially,Verify E2E flow for button not disabled initially
+SU065,End-to-End (Selenium),General,test_SU065_heading_font_size_large,Verify E2E flow for heading font size large
+SU066,End-to-End (Selenium),General,test_SU066_heading_font_weight_bold,Verify E2E flow for heading font weight bold
+SU067,End-to-End (Selenium),General,test_SU067_body_line_height,Verify E2E flow for body line height
+SU068,End-to-End (Selenium),General,test_SU068_no_flash_on_load,Verify E2E flow for no flash on load
+SU069,End-to-End (Selenium),General,test_SU069_no_console_errors_visible,Verify E2E flow for no console errors visible
+SU070,End-to-End (Selenium),General,test_SU070_password_placeholder_hint,Verify E2E flow for password placeholder hint
+SU071,End-to-End (Selenium),General,test_SU071_all_buttons_clickable,Verify E2E flow for all buttons clickable
+SU072,End-to-End (Selenium),General,test_SU072_select_styled_font,Verify E2E flow for select styled font
+SU073,End-to-End (Selenium),General,test_SU073_form_inputs_at_least_4,Verify E2E flow for form inputs at least 4
+SU074,End-to-End (Selenium),General,test_SU074_page_interactive_within_5s,Verify E2E flow for page interactive within 5s
+SU075,End-to-End (Selenium),General,test_SU075_layout_stable_after_2s,Verify E2E flow for layout stable after 2s
+FP001,End-to-End (Selenium),General,test_FP001_page_loads,Verify E2E flow for page loads
+FP002,End-to-End (Selenium),General,test_FP002_url_contains_forgot,Verify E2E flow for url contains forgot
+FP003,End-to-End (Selenium),General,test_FP003_email_input_exists,Verify E2E flow for email input exists
+FP004,End-to-End (Selenium),General,test_FP004_submit_button_exists,Verify E2E flow for submit button exists
+FP005,End-to-End (Selenium),General,test_FP005_back_to_login_link,Verify E2E flow for back to login link
+FP006,End-to-End (Selenium),General,test_FP006_heading_visible,Verify E2E flow for heading visible
+FP007,End-to-End (Selenium),General,test_FP007_forgot_text_in_page,Verify E2E flow for forgot text in page
+FP008,End-to-End (Selenium),General,test_FP008_no_password_field,Verify E2E flow for no password field
+FP009,End-to-End (Selenium),General,test_FP009_email_accepts_input,Verify E2E flow for email accepts input
+FP010,End-to-End (Selenium),General,test_FP010_invalid_email_no_crash,Verify E2E flow for invalid email no crash
+FP011,End-to-End (Selenium),General,test_FP011_empty_submit_no_crash,Verify E2E flow for empty submit no crash
+FP012,End-to-End (Selenium),General,test_FP012_email_required,Verify E2E flow for email required
+FP013,End-to-End (Selenium),General,test_FP013_login_link_navigates,Verify E2E flow for login link navigates
+FP014,End-to-End (Selenium),General,test_FP014_form_exists,Verify E2E flow for form exists
+FP015,End-to-End (Selenium),General,test_FP015_email_placeholder,Verify E2E flow for email placeholder
+FP016,End-to-End (Selenium),General,test_FP016_button_enabled,Verify E2E flow for button enabled
+FP017,End-to-End (Selenium),General,test_FP017_labels_exist,Verify E2E flow for labels exist
+FP018,End-to-End (Selenium),General,test_FP018_page_not_blank,Verify E2E flow for page not blank
+FP019,End-to-End (Selenium),General,test_FP019_xss_no_alert,Verify E2E flow for xss no alert
+FP020,End-to-End (Selenium),General,test_FP020_mobile_responsive,Verify E2E flow for mobile responsive
+FP021,End-to-End (Selenium),General,test_FP021_page_styled,Verify E2E flow for page styled
+FP022,End-to-End (Selenium),General,test_FP022_input_styled,Verify E2E flow for input styled
+FP023,End-to-End (Selenium),General,test_FP023_heading_not_empty,Verify E2E flow for heading not empty
+FP024,End-to-End (Selenium),General,test_FP024_no_error_boundary,Verify E2E flow for no error boundary
+FP025,End-to-End (Selenium),General,test_FP025_email_clears,Verify E2E flow for email clears
+FP026,End-to-End (Selenium),General,test_FP026_button_has_text,Verify E2E flow for button has text
+FP027,End-to-End (Selenium),General,test_FP027_page_reloads,Verify E2E flow for page reloads
+FP028,End-to-End (Selenium),General,test_FP028_instructions_present,Verify E2E flow for instructions present
+FP029,End-to-End (Selenium),General,test_FP029_page_title_exists,Verify E2E flow for page title exists
+FP030,End-to-End (Selenium),General,test_FP030_no_stack_trace,Verify E2E flow for no stack trace
+NAV001,End-to-End (Selenium),General,test_NAV001_root_loads,Verify E2E flow for root loads
+NAV002,End-to-End (Selenium),General,test_NAV002_login_route,Verify E2E flow for login route
+NAV003,End-to-End (Selenium),General,test_NAV003_signup_route,Verify E2E flow for signup route
+NAV004,End-to-End (Selenium),General,test_NAV004_forgot_route,Verify E2E flow for forgot route
+NAV005,End-to-End (Selenium),General,test_NAV005_app_dashboard_redirects_unauth,Verify E2E flow for app dashboard redirects unauth
+NAV006,End-to-End (Selenium),General,test_NAV006_app_upload_redirects_unauth,Verify E2E flow for app upload redirects unauth
+NAV007,End-to-End (Selenium),General,test_NAV007_app_history_redirects_unauth,Verify E2E flow for app history redirects unauth
+NAV008,End-to-End (Selenium),General,test_NAV008_app_settings_redirects_unauth,Verify E2E flow for app settings redirects unauth
+NAV009,End-to-End (Selenium),General,test_NAV009_app_analysis_redirects_unauth,Verify E2E flow for app analysis redirects unauth
+NAV010,End-to-End (Selenium),General,test_NAV010_app_admin_redirects_unauth,Verify E2E flow for app admin redirects unauth
+NAV011,End-to-End (Selenium),General,test_NAV011_unknown_route_handled,Verify E2E flow for unknown route handled
+NAV012,End-to-End (Selenium),General,test_NAV012_browser_back_works,Verify E2E flow for browser back works
+NAV013,End-to-End (Selenium),General,test_NAV013_browser_forward_works,Verify E2E flow for browser forward works
+NAV014,End-to-End (Selenium),General,test_NAV014_html5_history_routing,Verify E2E flow for html5 history routing
+NAV015,End-to-End (Selenium),General,test_NAV015_root_url_exact,Verify E2E flow for root url exact
+NAV016,End-to-End (Selenium),General,test_NAV016_refresh_login_stays,Verify E2E flow for refresh login stays
+NAV017,End-to-End (Selenium),General,test_NAV017_refresh_signup_stays,Verify E2E flow for refresh signup stays
+NAV018,End-to-End (Selenium),General,test_NAV018_refresh_forgot_stays,Verify E2E flow for refresh forgot stays
+NAV019,End-to-End (Selenium),General,test_NAV019_all_public_routes_not_blank,Verify E2E flow for all public routes not blank
+NAV020,End-to-End (Selenium),General,test_NAV020_all_routes_have_react_root,Verify E2E flow for all routes have react root
+NAV021,End-to-End (Selenium),General,test_NAV021_no_route_shows_blank,Verify E2E flow for no route shows blank
+NAV022,End-to-End (Selenium),General,test_NAV022_rapid_navigation_no_crash,Verify E2E flow for rapid navigation no crash
+NAV023,End-to-End (Selenium),General,test_NAV023_load_each_page_within_5s,Verify E2E flow for load each page within 5s
+NAV024,End-to-End (Selenium),General,test_NAV024_js_required,Verify E2E flow for js required
+NAV025,End-to-End (Selenium),General,test_NAV025_no_hash_routing,Verify E2E flow for no hash routing
+NAV026,End-to-End (Selenium),General,test_NAV026_login_to_signup,Verify E2E flow for login to signup
+NAV027,End-to-End (Selenium),General,test_NAV027_signup_to_login,Verify E2E flow for signup to login
+NAV028,End-to-End (Selenium),General,test_NAV028_login_to_forgot,Verify E2E flow for login to forgot
+NAV029,End-to-End (Selenium),General,test_NAV029_http_localhost_dev,Verify E2E flow for http localhost dev
+NAV030,End-to-End (Selenium),General,test_NAV030_no_404_on_public_routes,Verify E2E flow for no 404 on public routes
+NAV031,End-to-End (Selenium),General,test_NAV031_app_cfu_redirects_unauth,Verify E2E flow for app cfu redirects unauth
+NAV032,End-to-End (Selenium),General,test_NAV032_app_zones_redirects_unauth,Verify E2E flow for app zones redirects unauth
+NAV033,End-to-End (Selenium),General,test_NAV033_direct_api_route_from_browser,Verify E2E flow for direct api route from browser
+NAV034,End-to-End (Selenium),General,test_NAV034_404_handled_gracefully,Verify E2E flow for 404 handled gracefully
+NAV035,End-to-End (Selenium),General,test_NAV035_no_infinite_redirect,Verify E2E flow for no infinite redirect
+NAV036,End-to-End (Selenium),General,test_NAV036_all_nav_links_valid,Verify E2E flow for all nav links valid
+NAV037,End-to-End (Selenium),General,test_NAV037_login_url_format,Verify E2E flow for login url format
+NAV038,End-to-End (Selenium),General,test_NAV038_signup_url_format,Verify E2E flow for signup url format
+NAV039,End-to-End (Selenium),General,test_NAV039_forgot_url_format,Verify E2E flow for forgot url format
+NAV040,End-to-End (Selenium),General,test_NAV040_browser_history_length_increases,Verify E2E flow for browser history length increases
+NAV041,End-to-End (Selenium),General,test_NAV041_vite_dev_port_5173,Verify E2E flow for vite dev port 5173
+NAV042,End-to-End (Selenium),General,test_NAV042_backend_port_5000_accessible,Verify E2E flow for backend port 5000 accessible
+NAV043,End-to-End (Selenium),General,test_NAV043_page_not_loading_spinner_forever,Verify E2E flow for page not loading spinner forever
+NAV044,End-to-End (Selenium),General,test_NAV044_navigate_multiple_times_no_leak,Verify E2E flow for navigate multiple times no leak
+NAV045,End-to-End (Selenium),General,test_NAV045_scroll_position_reset_on_navigate,Verify E2E flow for scroll position reset on navigate
+NAV046,End-to-End (Selenium),General,test_NAV046_title_changes_between_pages,Verify E2E flow for title changes between pages
+NAV047,End-to-End (Selenium),General,test_NAV047_404_body_not_empty,Verify E2E flow for 404 body not empty
+NAV048,End-to-End (Selenium),General,test_NAV048_react_router_client_side,Verify E2E flow for react router client side
+NAV049,End-to-End (Selenium),General,test_NAV049_viewport_preserved_on_navigate,Verify E2E flow for viewport preserved on navigate
+NAV050,End-to-End (Selenium),General,test_NAV050_all_route_bodies_styled,Verify E2E flow for all route bodies styled
+API001,End-to-End (Selenium),General,test_API001_profile_requires_auth,Verify E2E flow for profile requires auth
+API002,End-to-End (Selenium),General,test_API002_samples_get_requires_auth,Verify E2E flow for samples get requires auth
+API003,End-to-End (Selenium),General,test_API003_csv_report_requires_auth,Verify E2E flow for csv report requires auth
+API004,End-to-End (Selenium),General,test_API004_upload_requires_auth,Verify E2E flow for upload requires auth
+API005,End-to-End (Selenium),General,test_API005_admin_users_requires_auth,Verify E2E flow for admin users requires auth
+API006,End-to-End (Selenium),General,test_API006_admin_history_requires_auth,Verify E2E flow for admin history requires auth
+API007,End-to-End (Selenium),General,test_API007_settings_update_requires_auth,Verify E2E flow for settings update requires auth
+API008,End-to-End (Selenium),General,test_API008_profile_update_requires_auth,Verify E2E flow for profile update requires auth
+API009,End-to-End (Selenium),General,test_API009_register_profile_requires_auth,Verify E2E flow for register profile requires auth
+API010,End-to-End (Selenium),General,test_API010_delete_sample_requires_auth,Verify E2E flow for delete sample requires auth
+API011,End-to-End (Selenium),General,test_API011_role_update_requires_auth,Verify E2E flow for role update requires auth
+API012,End-to-End (Selenium),General,test_API012_delete_user_requires_auth,Verify E2E flow for delete user requires auth
+API013,End-to-End (Selenium),General,test_API013_detections_update_requires_auth,Verify E2E flow for detections update requires auth
+API014,End-to-End (Selenium),General,test_API014_pdf_report_requires_auth,Verify E2E flow for pdf report requires auth
+API015,End-to-End (Selenium),General,test_API015_unknown_api_404,Verify E2E flow for unknown api 404
+API016,End-to-End (Selenium),General,test_API016_frontend_server_running,Verify E2E flow for frontend server running
+API017,End-to-End (Selenium),General,test_API017_backend_server_running,Verify E2E flow for backend server running
+API018,End-to-End (Selenium),General,test_API018_ai_service_running,Verify E2E flow for ai service running
+API019,End-to-End (Selenium),General,test_API019_auth_returns_json_on_error,Verify E2E flow for auth returns json on error
+API020,End-to-End (Selenium),General,test_API020_get_profile_401_status,Verify E2E flow for get profile 401 status
+API021,End-to-End (Selenium),General,test_API021_to_050_all_require_auth,Verify E2E flow for to 050 all require auth
+UI001,End-to-End (Selenium),General,test_UI001_landing_bg_color,Verify E2E flow for landing bg color
+UI002,End-to-End (Selenium),General,test_UI002_login_inputs_styled,Verify E2E flow for login inputs styled
+UI003,End-to-End (Selenium),General,test_UI003_button_transition,Verify E2E flow for button transition
+UI004,End-to-End (Selenium),General,test_UI004_custom_fonts,Verify E2E flow for custom fonts
+UI005,End-to-End (Selenium),General,test_UI005_css_classes_applied,Verify E2E flow for css classes applied
+UI006,End-to-End (Selenium),General,test_UI006_form_card_shadow,Verify E2E flow for form card shadow
+UI007,End-to-End (Selenium),General,test_UI007_inputs_border_radius,Verify E2E flow for inputs border radius
+UI008,End-to-End (Selenium),General,test_UI008_1440px_no_overflow,Verify E2E flow for 1440px no overflow
+UI009,End-to-End (Selenium),General,test_UI009_headings_font_size_large,Verify E2E flow for headings font size large
+UI010,End-to-End (Selenium),General,test_UI010_submit_btn_color,Verify E2E flow for submit btn color
+UI011,End-to-End (Selenium),General,test_UI011_text_color_set,Verify E2E flow for text color set
+UI012,End-to-End (Selenium),General,test_UI012_text_vs_bg_different,Verify E2E flow for text vs bg different
+UI013,End-to-End (Selenium),General,test_UI013_headings_font_weight,Verify E2E flow for headings font weight
+UI014,End-to-End (Selenium),General,test_UI014_labels_font_weight,Verify E2E flow for labels font weight
+UI015,End-to-End (Selenium),General,test_UI015_line_height,Verify E2E flow for line height
+UI016,End-to-End (Selenium),General,test_UI016_global_css_file,Verify E2E flow for global css file
+UI017,End-to-End (Selenium),General,test_UI017_button_border_radius,Verify E2E flow for button border radius
+UI018,End-to-End (Selenium),General,test_UI018_input_width_large,Verify E2E flow for input width large
+UI019,End-to-End (Selenium),General,test_UI019_button_height_clickable,Verify E2E flow for button height clickable
+UI020,End-to-End (Selenium),General,test_UI020_button_padding,Verify E2E flow for button padding
+UI021,End-to-End (Selenium),General,test_UI021_input_padding,Verify E2E flow for input padding
+UI022,End-to-End (Selenium),General,test_UI022_link_color,Verify E2E flow for link color
+UI023,End-to-End (Selenium),General,test_UI023_form_padding,Verify E2E flow for form padding
+UI024,End-to-End (Selenium),General,test_UI024_focus_ring_or_shadow,Verify E2E flow for focus ring or shadow
+UI025,End-to-End (Selenium),General,test_UI025_hover_action_works,Verify E2E flow for hover action works
+UI026,End-to-End (Selenium),General,test_UI026_button_hover,Verify E2E flow for button hover
+UI027,End-to-End (Selenium),General,test_UI027_form_centered,Verify E2E flow for form centered
+UI028,End-to-End (Selenium),General,test_UI028_mobile_form_visible,Verify E2E flow for mobile form visible
+UI029,End-to-End (Selenium),General,test_UI029_tablet_form_visible,Verify E2E flow for tablet form visible
+UI030,End-to-End (Selenium),General,test_UI030_desktop_form_visible,Verify E2E flow for desktop form visible
+UI031,End-to-End (Selenium),General,test_UI031_brand_logo_visible,Verify E2E flow for brand logo visible
+UI032,End-to-End (Selenium),General,test_UI032_select_styled,Verify E2E flow for select styled
+UI033,End-to-End (Selenium),General,test_UI033_select_padding,Verify E2E flow for select padding
+UI034,End-to-End (Selenium),General,test_UI034_nav_links_styled,Verify E2E flow for nav links styled
+UI035,End-to-End (Selenium),General,test_UI035_margin_zero_body,Verify E2E flow for margin zero body
+UI036,End-to-End (Selenium),General,test_UI036_scroll_bar_not_horizontal,Verify E2E flow for scroll bar not horizontal
+UI037,End-to-End (Selenium),General,test_UI037_heading_color_set,Verify E2E flow for heading color set
+UI038,End-to-End (Selenium),General,test_UI038_label_color_set,Verify E2E flow for label color set
+UI039,End-to-End (Selenium),General,test_UI039_input_color_set,Verify E2E flow for input color set
+UI040,End-to-End (Selenium),General,test_UI040_input_background_set,Verify E2E flow for input background set
+UI041,End-to-End (Selenium),General,test_UI041_form_background_set,Verify E2E flow for form background set
+UI042,End-to-End (Selenium),General,test_UI042_overflow_hidden_or_auto,Verify E2E flow for overflow hidden or auto
+UI043,End-to-End (Selenium),General,test_UI043_form_min_height,Verify E2E flow for form min height
+UI044,End-to-End (Selenium),General,test_UI044_css_variables_used,Verify E2E flow for css variables used
+UI045,End-to-End (Selenium),General,test_UI045_dark_theme_applied,Verify E2E flow for dark theme applied
+UI046,End-to-End (Selenium),General,test_UI046_footer_if_exists_styled,Verify E2E flow for footer if exists styled
+UI047,End-to-End (Selenium),General,test_UI047_image_max_width,Verify E2E flow for image max width
+UI048,End-to-End (Selenium),General,test_UI048_flex_or_grid_layout,Verify E2E flow for flex or grid layout
+UI049,End-to-End (Selenium),General,test_UI049_responsive_meta_viewport,Verify E2E flow for responsive meta viewport
+UI050,End-to-End (Selenium),General,test_UI050_z_index_handled,Verify E2E flow for z index handled
+UI051,End-to-End (Selenium),General,test_UI051_no_invisible_text,Verify E2E flow for no invisible text
+UI052,End-to-End (Selenium),General,test_UI052_cursor_pointer_on_links,Verify E2E flow for cursor pointer on links
+UI053,End-to-End (Selenium),General,test_UI053_input_focus_border_change,Verify E2E flow for input focus border change
+UI054,End-to-End (Selenium),General,test_UI054_button_active_state,Verify E2E flow for button active state
+UI055,End-to-End (Selenium),General,test_UI055_all_pages_branded,Verify E2E flow for all pages branded
+A001,End-to-End (Selenium),General,test_A001_html_lang,Verify E2E flow for html lang
+A002,End-to-End (Selenium),General,test_A002_images_have_alt,Verify E2E flow for images have alt
+A003,End-to-End (Selenium),General,test_A003_inputs_have_labels_login,Verify E2E flow for inputs have labels login
+A004,End-to-End (Selenium),General,test_A004_inputs_have_labels_signup,Verify E2E flow for inputs have labels signup
+A005,End-to-End (Selenium),General,test_A005_buttons_have_text,Verify E2E flow for buttons have text
+A006,End-to-End (Selenium),General,test_A006_keyboard_tab_login,Verify E2E flow for keyboard tab login
+A007,End-to-End (Selenium),General,test_A007_focus_visible_login,Verify E2E flow for focus visible login
+A008,End-to-End (Selenium),General,test_A008_heading_hierarchy,Verify E2E flow for heading hierarchy
+A009,End-to-End (Selenium),General,test_A009_required_fields_marked,Verify E2E flow for required fields marked
+A010,End-to-End (Selenium),General,test_A010_links_descriptive_text,Verify E2E flow for links descriptive text
+A011,End-to-End (Selenium),General,test_A011_submit_type_attribute,Verify E2E flow for submit type attribute
+A012,End-to-End (Selenium),General,test_A012_viewport_allows_zoom,Verify E2E flow for viewport allows zoom
+A013,End-to-End (Selenium),General,test_A013_inputs_not_disabled,Verify E2E flow for inputs not disabled
+A014,End-to-End (Selenium),General,test_A014_select_labeled_signup,Verify E2E flow for select labeled signup
+A015,End-to-End (Selenium),General,test_A015_tab_order_logical_login,Verify E2E flow for tab order logical login
+A016,End-to-End (Selenium),General,test_A016_mobile_readable_320px,Verify E2E flow for mobile readable 320px
+A017,End-to-End (Selenium),General,test_A017_no_autofocus_causes_scroll,Verify E2E flow for no autofocus causes scroll
+A018,End-to-End (Selenium),General,test_A018_placeholder_not_only_label,Verify E2E flow for placeholder not only label
+A019,End-to-End (Selenium),General,test_A019_buttons_visible_size,Verify E2E flow for buttons visible size
+A020,End-to-End (Selenium),General,test_A020_error_messages_textual,Verify E2E flow for error messages textual
+A021,End-to-End (Selenium),General,test_A021_link_focus_visible,Verify E2E flow for link focus visible
+A022,End-to-End (Selenium),General,test_A022_no_empty_labels,Verify E2E flow for no empty labels
+A023,End-to-End (Selenium),General,test_A023_form_has_fieldset_or_labels,Verify E2E flow for form has fieldset or labels
+A024,End-to-End (Selenium),General,test_A024_color_contrast_basic,Verify E2E flow for color contrast basic
+A025,End-to-End (Selenium),General,test_A025_keyboard_submit_possible,Verify E2E flow for keyboard submit possible
+PERF001,End-to-End (Selenium),General,test_PERF001_landing_under_5s,Verify E2E flow for landing under 5s
+PERF002,End-to-End (Selenium),General,test_PERF002_login_under_4s,Verify E2E flow for login under 4s
+PERF003,End-to-End (Selenium),General,test_PERF003_signup_under_4s,Verify E2E flow for signup under 4s
+PERF004,End-to-End (Selenium),General,test_PERF004_forgot_under_4s,Verify E2E flow for forgot under 4s
+PERF005,End-to-End (Selenium),General,test_PERF005_dom_count_sane,Verify E2E flow for dom count sane
+PERF006,End-to-End (Selenium),General,test_PERF006_scripts_count_reasonable,Verify E2E flow for scripts count reasonable
+PERF007,End-to-End (Selenium),General,test_PERF007_css_count_reasonable,Verify E2E flow for css count reasonable
+PERF008,End-to-End (Selenium),General,test_PERF008_login_interactive_within_5s,Verify E2E flow for login interactive within 5s
+PERF009,End-to-End (Selenium),General,test_PERF009_signup_interactive_within_5s,Verify E2E flow for signup interactive within 5s
+PERF010,End-to-End (Selenium),General,test_PERF010_rapid_navigation_no_crash,Verify E2E flow for rapid navigation no crash
+PERF011,End-to-End (Selenium),General,test_PERF011_input_typing_fast,Verify E2E flow for input typing fast
+PERF012,End-to-End (Selenium),General,test_PERF012_scroll_performance,Verify E2E flow for scroll performance
+PERF013,End-to-End (Selenium),General,test_PERF013_css_in_head,Verify E2E flow for css in head
+PERF014,End-to-End (Selenium),General,test_PERF014_nav_timing_available,Verify E2E flow for nav timing available
+PERF015,End-to-End (Selenium),General,test_PERF015_no_infinite_render,Verify E2E flow for no infinite render
+PERF016,End-to-End (Selenium),General,test_PERF016_multiple_pages_no_memory_leak,Verify E2E flow for multiple pages no memory leak
+PERF017,End-to-End (Selenium),General,test_PERF017_vite_hmr_connected,Verify E2E flow for vite hmr connected
+PERF018,End-to-End (Selenium),General,test_PERF018_css_loaded_synchronously,Verify E2E flow for css loaded synchronously
+PERF019,End-to-End (Selenium),General,test_PERF019_page_paint_occurs,Verify E2E flow for page paint occurs
+PERF020,End-to-End (Selenium),General,test_PERF020_resource_count_reasonable,Verify E2E flow for resource count reasonable
+SRV-001,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-001: Express app is defined,Express app is defined
+SRV-002,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-002: App is a function,App is a function
+SRV-003,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-003: App listens on http,App listens on http
+SRV-004,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-004: Unknown route returns 404,Unknown route returns 404
+SRV-005,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-005: Helmet security headers present,Helmet security headers present
+SRV-006,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-006: X-Powered-By header hidden by Helmet,X-Powered-By header hidden by Helmet
+SRV-007,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-007: CORS allows localhost:5173,CORS allows localhost:5173
+SRV-008,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-008: Rate limiter does not block single request,Rate limiter does not block single request
+SRV-009,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-009: Request without JSON body handled,Request without JSON body handled
+SRV-010,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-010: Request with malformed auth header handled,Request with malformed auth header handled
+SRV-011,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-011: GET /api/auth/profile without token returns 401,GET /api/auth/profile without token returns 401
+SRV-012,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-012: GET /api/samples without token returns 401,GET /api/samples without token returns 401
+SRV-013,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-013: POST /api/auth/register-profile without token returns 401,POST /api/auth/register-profile without token returns 401
+SRV-014,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-014: Response has Content-Type header,Response has Content-Type header
+SRV-015,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-015: API returns JSON on auth error,API returns JSON on auth error
+SRV-016,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-016: POST with empty body does not crash server,POST with empty body does not crash server
+SRV-017,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-017: Server handles GET requests,Server handles GET requests
+SRV-018,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-018: Server handles POST requests,Server handles POST requests
+SRV-019,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-019: Server handles DELETE requests,Server handles DELETE requests
+SRV-020,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-020: Server handles OPTIONS preflight,Server handles OPTIONS preflight
+SRV-021,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-021: Server rejects missing X-Requested-With for auth routes,Server rejects missing X-Requested-With for auth routes
+SRV-022,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-022: Large payload handled,Large payload handled
+SRV-023,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-023: Server processes concurrent requests,Server processes concurrent requests
+SRV-024,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-024: Server returns proper error format,Server returns proper error format
+SRV-025,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-025: CORS headers not blocking valid origin,CORS headers not blocking valid origin
+SRV-026,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-026: Routes are mounted at /api/auth,Routes are mounted at /api/auth
+SRV-027,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-027: Routes are mounted at /api/samples,Routes are mounted at /api/samples
+SRV-028,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-028: Routes are mounted at /api/reports,Routes are mounted at /api/reports
+SRV-029,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-029: Upload route mounted at /api/samples/upload,Upload route mounted at /api/samples/upload
+SRV-030,Backend Unit (Jest),TC-SRV: Server Bootstrap & Middleware,SRV-030: Server does not expose stack traces in production,Server does not expose stack traces in production
+MW-001,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-001: Request without Authorization header returns 401,Request without Authorization header returns 401
+MW-002,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-002: Request with Bearer token calls verifyIdToken,Request with Bearer token calls verifyIdToken
+MW-003,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-003: Invalid token returns 401,Invalid token returns 401
+MW-004,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-004: Empty Bearer token returns 401,Empty Bearer token returns 401
+MW-005,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-005: Malformed auth header (no Bearer) returns 401,Malformed auth header (no Bearer) returns 401
+MW-006,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-006: Valid token passes middleware,Valid token passes middleware
+MW-007,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-007: Middleware sets req.user on success,Middleware sets req.user on success
+MW-008,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-008: Token in cookie header not accepted without Bearer,Token in cookie header not accepted without Bearer
+MW-009,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-009: Multiple Bearer tokens rejected,Multiple Bearer tokens rejected
+MW-010,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-010: Expired token pattern returns 401,Expired token pattern returns 401
+MW-011,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-011: Network error in verifyIdToken returns 401,Network error in verifyIdToken returns 401
+MW-012,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-012: X-Requested-With header required for CSRF,X-Requested-With header required for CSRF
+MW-013,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-013: Valid token + X-Requested-With passes CSRF check,Valid token + X-Requested-With passes CSRF check
+MW-014,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-014: Admin route requires Admin role,Admin route requires Admin role
+MW-015,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-015: Admin route with admin token passes,Admin route with admin token passes
+MW-016,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-016: Rate limiter allows up to limit,Rate limiter allows up to limit
+MW-017,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-017: verifyIdToken called once per request,verifyIdToken called once per request
+MW-018,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-018: User ID extracted from token correctly,User ID extracted from token correctly
+MW-019,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-019: Token with special chars rejected gracefully,Token with special chars rejected gracefully
+MW-020,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-020: Token with whitespace only rejected,Token with whitespace only rejected
+MW-021,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-021: req.user has uid property,req.user has uid property
+MW-022,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-022: Middleware does not leak token in response,Middleware does not leak token in response
+MW-023,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-023: OPTIONS request not blocked by CSRF,OPTIONS request not blocked by CSRF
+MW-024,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-024: POST without body does not crash,POST without body does not crash
+MW-025,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-025: Middleware error is caught,Middleware error is caught
+MW-026,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-026: Protected route not accessible without token,Protected route not accessible without token
+MW-027,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-027: Token refresh handled gracefully,Token refresh handled gracefully
+MW-028,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-028: Long valid token accepted,Long valid token accepted
+MW-029,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-029: Auth error body contains message field,Auth error body contains message field
+MW-030,Backend Unit (Jest),TC-AUTH-MW: Authentication Middleware,MW-030: Multiple concurrent authenticated requests handled,Multiple concurrent authenticated requests handled
+AR-001,Backend Unit (Jest),TC-AR: Auth Routes,AR-001: POST /api/auth/register-profile requires auth,POST /api/auth/register-profile requires auth
+AR-002,Backend Unit (Jest),TC-AR: Auth Routes,AR-002: POST /api/auth/register-profile with valid data creates profile,POST /api/auth/register-profile with valid data creates profile
+AR-003,Backend Unit (Jest),TC-AR: Auth Routes,AR-003: POST /api/auth/register-profile with existing profile returns 409,POST /api/auth/register-profile with existing profile returns 409
+AR-004,Backend Unit (Jest),TC-AR: Auth Routes,AR-004: POST /api/auth/register-profile without name returns 400,POST /api/auth/register-profile without name returns 400
+AR-005,Backend Unit (Jest),TC-AR: Auth Routes,AR-005: POST /api/auth/register-profile sanitizes HTML in name,POST /api/auth/register-profile sanitizes HTML in name
+AR-006,Backend Unit (Jest),TC-AR: Auth Routes,AR-006: POST /api/auth/register-profile accepts valid role,POST /api/auth/register-profile accepts valid role
+AR-007,Backend Unit (Jest),TC-AR: Auth Routes,AR-007: GET /api/auth/profile returns user data,GET /api/auth/profile returns user data
+AR-008,Backend Unit (Jest),TC-AR: Auth Routes,AR-008: GET /api/auth/profile without token returns 401,GET /api/auth/profile without token returns 401
+AR-009,Backend Unit (Jest),TC-AR: Auth Routes,AR-009: GET /api/auth/profile user object has name,GET /api/auth/profile user object has name
+AR-010,Backend Unit (Jest),TC-AR: Auth Routes,AR-010: GET /api/auth/profile user object has role,GET /api/auth/profile user object has role
+AR-011,Backend Unit (Jest),TC-AR: Auth Routes,AR-011: GET /api/auth/profile user object has email,GET /api/auth/profile user object has email
+AR-012,Backend Unit (Jest),TC-AR: Auth Routes,AR-012: GET /api/auth/profile user object does not have password,GET /api/auth/profile user object does not have password
+AR-013,Backend Unit (Jest),TC-AR: Auth Routes,AR-013: POST /api/auth/profile/update requires auth,POST /api/auth/profile/update requires auth
+AR-014,Backend Unit (Jest),TC-AR: Auth Routes,AR-014: POST /api/auth/profile/update with valid name succeeds,POST /api/auth/profile/update with valid name succeeds
+AR-015,Backend Unit (Jest),TC-AR: Auth Routes,AR-015: POST /api/auth/profile/update empty name rejected,POST /api/auth/profile/update empty name rejected
+AR-016,Backend Unit (Jest),TC-AR: Auth Routes,AR-016: POST /api/auth/profile/update sanitizes XSS in name,POST /api/auth/profile/update sanitizes XSS in name
+AR-017,Backend Unit (Jest),TC-AR: Auth Routes,AR-017: POST /api/auth/profile/update returns updated user,POST /api/auth/profile/update returns updated user
+AR-018,Backend Unit (Jest),TC-AR: Auth Routes,AR-018: POST /api/auth/settings/update requires auth,POST /api/auth/settings/update requires auth
+AR-019,Backend Unit (Jest),TC-AR: Auth Routes,AR-019: POST /api/auth/settings/update updates twoFactorEnabled,POST /api/auth/settings/update updates twoFactorEnabled
+AR-020,Backend Unit (Jest),TC-AR: Auth Routes,AR-020: POST /api/auth/settings/update updates reportingPreference,POST /api/auth/settings/update updates reportingPreference
+AR-021,Backend Unit (Jest),TC-AR: Auth Routes,AR-021: POST /api/auth/settings/update with empty body succeeds,POST /api/auth/settings/update with empty body succeeds
+AR-022,Backend Unit (Jest),TC-AR: Auth Routes,AR-022: GET /api/auth/admin/users requires Admin role,GET /api/auth/admin/users requires Admin role
+AR-023,Backend Unit (Jest),TC-AR: Auth Routes,AR-023: GET /api/auth/admin/users with admin token returns users,GET /api/auth/admin/users with admin token returns users
+AR-024,Backend Unit (Jest),TC-AR: Auth Routes,AR-024: POST /api/auth/admin/users/:id/role requires admin,POST /api/auth/admin/users/:id/role requires admin
+AR-025,Backend Unit (Jest),TC-AR: Auth Routes,AR-025: POST /api/auth/admin/users/:id/role with admin changes role,POST /api/auth/admin/users/:id/role with admin changes role
+AR-026,Backend Unit (Jest),TC-AR: Auth Routes,AR-026: DELETE /api/auth/admin/users/:id requires admin,DELETE /api/auth/admin/users/:id requires admin
+AR-027,Backend Unit (Jest),TC-AR: Auth Routes,AR-027: DELETE /api/auth/admin/users/:id with admin deletes user,DELETE /api/auth/admin/users/:id with admin deletes user
+AR-028,Backend Unit (Jest),TC-AR: Auth Routes,AR-028: Admin cannot delete own account,Admin cannot delete own account
+AR-029,Backend Unit (Jest),TC-AR: Auth Routes,AR-029: Invalid role in role update returns 400,Invalid role in role update returns 400
+AR-030,Backend Unit (Jest),TC-AR: Auth Routes,AR-030: Role update response includes updated role,Role update response includes updated role
+AR-031,Backend Unit (Jest),TC-AR: Auth Routes,AR-031: GET /api/auth/profile caches result in body,GET /api/auth/profile caches result in body
+AR-032,Backend Unit (Jest),TC-AR: Auth Routes,AR-032: register-profile accepts Researcher role,register-profile accepts Researcher role
+AR-033,Backend Unit (Jest),TC-AR: Auth Routes,AR-033: register-profile accepts Admin role,register-profile accepts Admin role
+AR-034,Backend Unit (Jest),TC-AR: Auth Routes,AR-034: register-profile stores department,register-profile stores department
+AR-035,Backend Unit (Jest),TC-AR: Auth Routes,AR-035: profile/update truncates very long name,profile/update truncates very long name
+AR-036,Backend Unit (Jest),TC-AR: Auth Routes,AR-036: settings/update handles boolean string for 2fa,settings/update handles boolean string for 2fa
+AR-037,Backend Unit (Jest),TC-AR: Auth Routes,AR-037: settings/update rejects invalid reportingPreference,settings/update rejects invalid reportingPreference
+AR-038,Backend Unit (Jest),TC-AR: Auth Routes,AR-038: GET profile response is JSON,GET profile response is JSON
+AR-039,Backend Unit (Jest),TC-AR: Auth Routes,AR-039: POST register-profile response is JSON,POST register-profile response is JSON
+AR-040,Backend Unit (Jest),TC-AR: Auth Routes,AR-040: POST settings/update response is JSON,POST settings/update response is JSON
+AR-041,Backend Unit (Jest),TC-AR: Auth Routes,AR-041: Profile update with empty department,Profile update with empty department
+AR-042,Backend Unit (Jest),TC-AR: Auth Routes,AR-042: Profile response does not include Firestore __id,Profile response does not include Firestore __id
+AR-043,Backend Unit (Jest),TC-AR: Auth Routes,AR-043: Admin users list is array,Admin users list is array
+AR-044,Backend Unit (Jest),TC-AR: Auth Routes,AR-044: Profile endpoint returns 404 for non-existent user,Profile endpoint returns 404 for non-existent user
+AR-045,Backend Unit (Jest),TC-AR: Auth Routes,AR-045: Settings endpoint saves to Firestore,Settings endpoint saves to Firestore
+AR-046,Backend Unit (Jest),TC-AR: Auth Routes,AR-046: XSS in department field is sanitized,XSS in department field is sanitized
+AR-047,Backend Unit (Jest),TC-AR: Auth Routes,AR-047: Auth route handles Firestore unavailability,Auth route handles Firestore unavailability
+AR-048,Backend Unit (Jest),TC-AR: Auth Routes,AR-048: Admin route handles DB error gracefully,Admin route handles DB error gracefully
+AR-049,Backend Unit (Jest),TC-AR: Auth Routes,AR-049: Profile update Firestore called with correct data,Profile update Firestore called with correct data
+AR-050,Backend Unit (Jest),TC-AR: Auth Routes,AR-050: Register profile sets createdAt timestamp,Register profile sets createdAt timestamp
+AR-051,Backend Unit (Jest),TC-AR: Auth Routes,AR-051: Profile has id field,Profile has id field
+AR-052,Backend Unit (Jest),TC-AR: Auth Routes,AR-052: Profile endpoint is GET only,Profile endpoint is GET only
+AR-053,Backend Unit (Jest),TC-AR: Auth Routes,AR-053: Admin history endpoint exists,Admin history endpoint exists
+AR-054,Backend Unit (Jest),TC-AR: Auth Routes,AR-054: settings/update does not require newPassword,settings/update does not require newPassword
+AR-055,Backend Unit (Jest),TC-AR: Auth Routes,AR-055: admin/users returns users array on success,admin/users returns users array on success
+AR-056,Backend Unit (Jest),TC-AR: Auth Routes,AR-056: register-profile rejects missing role,register-profile rejects missing role
+AR-057,Backend Unit (Jest),TC-AR: Auth Routes,AR-057: admin users role update with same role,admin users role update with same role
+AR-058,Backend Unit (Jest),TC-AR: Auth Routes,AR-058: all auth endpoints respond within 5s,all auth endpoints respond within 5s
+AR-059,Backend Unit (Jest),TC-AR: Auth Routes,AR-059: admin users delete non-existent returns error,admin users delete non-existent returns error
+AR-060,Backend Unit (Jest),TC-AR: Auth Routes,AR-060: settings endpoint saves 2fa=false correctly,settings endpoint saves 2fa=false correctly
+SM-001,Backend Unit (Jest),TC-SM: Samples Routes,SM-001: GET /api/samples requires auth,GET /api/samples requires auth
+SM-002,Backend Unit (Jest),TC-SM: Samples Routes,SM-002: GET /api/samples with valid token returns samples,GET /api/samples with valid token returns samples
+SM-003,Backend Unit (Jest),TC-SM: Samples Routes,SM-003: GET /api/samples returns empty array when no samples,GET /api/samples returns empty array when no samples
+SM-004,Backend Unit (Jest),TC-SM: Samples Routes,SM-004: GET /api/samples returns array with samples,GET /api/samples returns array with samples
+SM-005,Backend Unit (Jest),TC-SM: Samples Routes,SM-005: POST /api/samples/upload requires auth,POST /api/samples/upload requires auth
+SM-006,Backend Unit (Jest),TC-SM: Samples Routes,SM-006: POST /api/samples/upload with file creates sample,POST /api/samples/upload with file creates sample
+SM-007,Backend Unit (Jest),TC-SM: Samples Routes,SM-007: POST /api/samples/upload without batchId returns 400,POST /api/samples/upload without batchId returns 400
+SM-008,Backend Unit (Jest),TC-SM: Samples Routes,SM-008: POST /api/samples/upload response has sample object,POST /api/samples/upload response has sample object
+SM-009,Backend Unit (Jest),TC-SM: Samples Routes,SM-009: GET /api/samples/:id requires auth,GET /api/samples/:id requires auth
+SM-010,Backend Unit (Jest),TC-SM: Samples Routes,SM-010: GET /api/samples/:id returns sample,GET /api/samples/:id returns sample
+SM-011,Backend Unit (Jest),TC-SM: Samples Routes,SM-011: DELETE /api/samples/:id requires auth,DELETE /api/samples/:id requires auth
+SM-012,Backend Unit (Jest),TC-SM: Samples Routes,SM-012: DELETE /api/samples/:id deletes sample,DELETE /api/samples/:id deletes sample
+SM-013,Backend Unit (Jest),TC-SM: Samples Routes,SM-013: DELETE non-existent sample returns 404,DELETE non-existent sample returns 404
+SM-014,Backend Unit (Jest),TC-SM: Samples Routes,SM-014: POST update-detections requires auth,POST update-detections requires auth
+SM-015,Backend Unit (Jest),TC-SM: Samples Routes,SM-015: POST update-detections updates circles,POST update-detections updates circles
+SM-016,Backend Unit (Jest),TC-SM: Samples Routes,SM-016: POST update-detections with empty array clears detections,POST update-detections with empty array clears detections
+SM-017,Backend Unit (Jest),TC-SM: Samples Routes,SM-017: GET admin/history requires Admin role,GET admin/history requires Admin role
+SM-018,Backend Unit (Jest),TC-SM: Samples Routes,SM-018: GET admin/history with admin token returns all samples,GET admin/history with admin token returns all samples
+SM-019,Backend Unit (Jest),TC-SM: Samples Routes,SM-019: GET /api/samples returns 200 with valid token,GET /api/samples returns 200 with valid token
+SM-020,Backend Unit (Jest),TC-SM: Samples Routes,SM-020: Upload sanitizes batchId XSS,Upload sanitizes batchId XSS
+SM-021,Backend Unit (Jest),TC-SM: Samples Routes,SM-021: Upload sanitizes applianceType XSS,Upload sanitizes applianceType XSS
+SM-022,Backend Unit (Jest),TC-SM: Samples Routes,SM-022: GET /api/samples responds with JSON,GET /api/samples responds with JSON
+SM-023,Backend Unit (Jest),TC-SM: Samples Routes,SM-023: POST upload responds with JSON,POST upload responds with JSON
+SM-024,Backend Unit (Jest),TC-SM: Samples Routes,SM-024: Samples have colonyCount field,Samples have colonyCount field
+SM-025,Backend Unit (Jest),TC-SM: Samples Routes,SM-025: Samples have cfuCount field,Samples have cfuCount field
+SM-026,Backend Unit (Jest),TC-SM: Samples Routes,SM-026: Samples have contaminationRisk field,Samples have contaminationRisk field
+SM-027,Backend Unit (Jest),TC-SM: Samples Routes,SM-027: Upload with dilutionFactor 1 accepted,Upload with dilutionFactor 1 accepted
+SM-028,Backend Unit (Jest),TC-SM: Samples Routes,SM-028: Upload with dilutionFactor 100 accepted,Upload with dilutionFactor 100 accepted
+SM-029,Backend Unit (Jest),TC-SM: Samples Routes,SM-029: Update detections validates detections array,Update detections validates detections array
+SM-030,Backend Unit (Jest),TC-SM: Samples Routes,SM-030: Delete sample from another user denied,Delete sample from another user denied
+SM-031,Backend Unit (Jest),TC-SM: Samples Routes,SM-031: Upload appends sample to Firestore,Upload appends sample to Firestore
+SM-032,Backend Unit (Jest),TC-SM: Samples Routes,SM-032: Upload response includes sample id,Upload response includes sample id
+SM-033,Backend Unit (Jest),TC-SM: Samples Routes,SM-033: Upload empty batchId rejected,Upload empty batchId rejected
+SM-034,Backend Unit (Jest),TC-SM: Samples Routes,SM-034: GET samples with limit param,GET samples with limit param
+SM-035,Backend Unit (Jest),TC-SM: Samples Routes,SM-035: GET samples response body has samples key,GET samples response body has samples key
+SM-036,Backend Unit (Jest),TC-SM: Samples Routes,SM-036: Detections update recalculates colonyCount,Detections update recalculates colonyCount
+SM-037,Backend Unit (Jest),TC-SM: Samples Routes,SM-037: Upload comments field stored,Upload comments field stored
+SM-038,Backend Unit (Jest),TC-SM: Samples Routes,SM-038: Upload operatorName field stored,Upload operatorName field stored
+SM-039,Backend Unit (Jest),TC-SM: Samples Routes,SM-039: Samples list ordered by createdAt desc,Samples list ordered by createdAt desc
+SM-040,Backend Unit (Jest),TC-SM: Samples Routes,SM-040: Sample has zones object,Sample has zones object
+REP-001,Backend Unit (Jest),TC-REP: Reports Routes,REP-001: GET /api/reports/csv requires auth,GET /api/reports/csv requires auth
+REP-002,Backend Unit (Jest),TC-REP: Reports Routes,REP-002: GET /api/reports/csv with valid token responds,GET /api/reports/csv with valid token responds
+REP-003,Backend Unit (Jest),TC-REP: Reports Routes,REP-003: GET /api/reports/csv response is CSV or JSON,GET /api/reports/csv response is CSV or JSON
+REP-004,Backend Unit (Jest),TC-REP: Reports Routes,REP-004: GET /api/reports/pdf/:id requires auth,GET /api/reports/pdf/:id requires auth
+REP-005,Backend Unit (Jest),TC-REP: Reports Routes,REP-005: GET /api/reports/pdf/:id with valid token responds,GET /api/reports/pdf/:id with valid token responds
+REP-006,Backend Unit (Jest),TC-REP: Reports Routes,REP-006: GET /api/reports/pdf with non-existent sample returns 404,GET /api/reports/pdf with non-existent sample returns 404
+REP-007,Backend Unit (Jest),TC-REP: Reports Routes,REP-007: CSV report returns data for user samples,CSV report returns data for user samples
+REP-008,Backend Unit (Jest),TC-REP: Reports Routes,REP-008: CSV report Content-Disposition header,CSV report Content-Disposition header
+REP-009,Backend Unit (Jest),TC-REP: Reports Routes,REP-009: PDF report for sample not owned by user denied,PDF report for sample not owned by user denied
+REP-010,Backend Unit (Jest),TC-REP: Reports Routes,REP-010: PDF report returns HTML or PDF content,PDF report returns HTML or PDF content
+UTIL-001,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-001: Colony count 0 → Low risk,Colony count 0 → Low risk
+UTIL-002,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-002: Colony count 1 → Low risk,Colony count 1 → Low risk
+UTIL-003,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-003: Colony count 5 → Low risk,Colony count 5 → Low risk
+UTIL-004,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-004: Colony count 6 → Medium risk,Colony count 6 → Medium risk
+UTIL-005,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-005: Colony count 10 → Medium risk,Colony count 10 → Medium risk
+UTIL-006,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-006: Colony count 25 → Medium risk,Colony count 25 → Medium risk
+UTIL-007,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-007: Colony count 26 → High risk,Colony count 26 → High risk
+UTIL-008,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-008: Colony count 40 → High risk,Colony count 40 → High risk
+UTIL-009,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-009: Colony count 60 → High risk,Colony count 60 → High risk
+UTIL-010,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-010: Colony count 61 → Critical risk,Colony count 61 → Critical risk
+UTIL-011,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-011: Colony count 100 → Critical risk,Colony count 100 → Critical risk
+UTIL-012,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-012: Colony count 1000 → Critical risk,Colony count 1000 → Critical risk
+UTIL-013,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-013: Risk level returns string,Risk level returns string
+UTIL-014,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-014: Risk level never returns null,Risk level never returns null
+UTIL-015,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-015: Risk level never returns undefined,Risk level never returns undefined
+UTIL-016,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-016: Colony 3 → Low (boundary),Colony 3 → Low (boundary)
+UTIL-017,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-017: Colony 4 → Low (boundary),Colony 4 → Low (boundary)
+UTIL-018,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-018: Colony 24 → Medium (boundary),Colony 24 → Medium (boundary)
+UTIL-019,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-019: Colony 59 → High (boundary),Colony 59 → High (boundary)
+UTIL-020,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-020: Colony 62 → Critical (boundary),Colony 62 → Critical (boundary)
+UTIL-021,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-021: Empty detections returns zero zones,Empty detections returns zero zones
+UTIL-022,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-022: Center point goes to inner zone,Center point goes to inner zone
+UTIL-023,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-023: Edge point goes to outer zone,Edge point goes to outer zone
+UTIL-024,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-024: Zone counts sum to total detections,Zone counts sum to total detections
+UTIL-025,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-025: Multiple center points all inner,Multiple center points all inner
+UTIL-026,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-026: Returns object with inner/middle/outer keys,Returns object with inner/middle/outer keys
+UTIL-027,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-027: All zone counts are non-negative,All zone counts are non-negative
+UTIL-028,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-028: Zone counts are integers,Zone counts are integers
+UTIL-029,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-029: Point at r1 boundary in inner,Point at r1 boundary in inner
+UTIL-030,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-030: Large detection array processed,Large detection array processed
+UTIL-031,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-031: sanitize removes script tag,sanitize removes script tag
+UTIL-032,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-032: sanitize removes img onerror,sanitize removes img onerror
+UTIL-033,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-033: sanitize empty string returns empty,sanitize empty string returns empty
+UTIL-034,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-034: sanitize null returns empty string,sanitize null returns empty string
+UTIL-035,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-035: sanitize undefined returns empty string,sanitize undefined returns empty string
+UTIL-036,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-036: sanitize normal text unchanged,sanitize normal text unchanged
+UTIL-037,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-037: sanitize encodes & as &amp;,sanitize encodes & as &amp;
+UTIL-038,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-038: sanitize encodes < as &lt;,sanitize encodes < as &lt;
+UTIL-039,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-039: sanitize encodes > as &gt;,sanitize encodes > as &gt;
+UTIL-040,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)","UTIL-040: sanitize encodes "" as &quot;","sanitize encodes "" as &quot;"
+UTIL-041,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-041: sanitize encodes single quote,sanitize encodes single quote
+UTIL-042,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-042: sanitize handles numbers,sanitize handles numbers
+UTIL-043,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-043: sanitize preserves plain email,sanitize preserves plain email
+UTIL-044,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-044: sanitize multiple tags,sanitize multiple tags
+UTIL-045,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-045: sanitize SQL injection string,sanitize SQL injection string
+UTIL-046,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-046: sanitize XSS with event handler,sanitize XSS with event handler
+UTIL-047,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-047: sanitize preserves batch ID format,sanitize preserves batch ID format
+UTIL-048,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-048: sanitize handles emoji,sanitize handles emoji
+UTIL-049,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-049: sanitize handles Unicode,sanitize handles Unicode
+UTIL-050,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-050: sanitize handles very long string,sanitize handles very long string
+UTIL-051,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-051: CFU = count * dilution,CFU = count * dilution
+UTIL-052,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-052: CFU with dilution 1 equals count,CFU with dilution 1 equals count
+UTIL-053,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-053: CFU with dilution 100,CFU with dilution 100
+UTIL-054,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-054: CFU with count 0 equals 0,CFU with count 0 equals 0
+UTIL-055,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-055: CFU rounds to integer,CFU rounds to integer
+UTIL-056,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-056: CFU non-negative,CFU non-negative
+UTIL-057,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-057: CFU large values handled,CFU large values handled
+UTIL-058,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-058: Risk Low string is one of valid values,Risk Low string is one of valid values
+UTIL-059,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-059: Risk always returns valid enum value,Risk always returns valid enum value
+UTIL-060,Backend Unit (Jest),"TC-UTIL: Utility Functions (getRiskLevel, calculateZones, sanitize)",UTIL-060: Zones never have negative counts,Zones never have negative counts
+SEC-001,Backend Unit (Jest),TC-SEC: Security Tests,SEC-001: No X-Powered-By header,No X-Powered-By header
+SEC-002,Backend Unit (Jest),TC-SEC: Security Tests,SEC-002: X-Content-Type-Options header,X-Content-Type-Options header
+SEC-003,Backend Unit (Jest),TC-SEC: Security Tests,SEC-003: Auth endpoints do not reflect token in response,Auth endpoints do not reflect token in response
+SEC-004,Backend Unit (Jest),TC-SEC: Security Tests,SEC-004: SQL injection in query param handled,SQL injection in query param handled
+SEC-005,Backend Unit (Jest),TC-SEC: Security Tests,SEC-005: XSS in request body sanitized,XSS in request body sanitized
+SEC-006,Backend Unit (Jest),TC-SEC: Security Tests,SEC-006: Prototype pollution attempt handled,Prototype pollution attempt handled
+SEC-007,Backend Unit (Jest),TC-SEC: Security Tests,SEC-007: Rate limiter is active,Rate limiter is active
+SEC-008,Backend Unit (Jest),TC-SEC: Security Tests,SEC-008: CORS does not allow all origins,CORS does not allow all origins
+SEC-009,Backend Unit (Jest),TC-SEC: Security Tests,SEC-009: Sensitive fields not in error response,Sensitive fields not in error response
+SEC-010,Backend Unit (Jest),TC-SEC: Security Tests,SEC-010: Large JSON body returns 413 or handled,Large JSON body returns 413 or handled
+SEC-011,Backend Unit (Jest),TC-SEC: Security Tests,SEC-011: Path traversal in route handled,Path traversal in route handled
+SEC-012,Backend Unit (Jest),TC-SEC: Security Tests,SEC-012: Null bytes in request handled,Null bytes in request handled
+SEC-013,Backend Unit (Jest),TC-SEC: Security Tests,SEC-013: HTTP method not allowed returns 404 or 405,HTTP method not allowed returns 404 or 405
+SEC-014,Backend Unit (Jest),TC-SEC: Security Tests,SEC-014: CSRF protection via X-Requested-With,CSRF protection via X-Requested-With
+SEC-015,Backend Unit (Jest),TC-SEC: Security Tests,SEC-015: Token not leaked in 401 response body,Token not leaked in 401 response body
+VAL-001,Backend Unit (Jest),TC-VAL: Input Validation,VAL-001: Batch ID with valid format accepted,Batch ID with valid format accepted
+VAL-002,Backend Unit (Jest),TC-VAL: Input Validation,VAL-002: Empty batch ID rejected,Empty batch ID rejected
+VAL-003,Backend Unit (Jest),TC-VAL: Input Validation,VAL-003: Very long batch ID handled,Very long batch ID handled
+VAL-004,Backend Unit (Jest),TC-VAL: Input Validation,VAL-004: Batch ID with XSS sanitized,Batch ID with XSS sanitized
+VAL-005,Backend Unit (Jest),TC-VAL: Input Validation,VAL-005: Batch ID with SQL injection handled,Batch ID with SQL injection handled
+VAL-006,Backend Unit (Jest),TC-VAL: Input Validation,VAL-006: Batch ID null handled,Batch ID null handled
+VAL-007,Backend Unit (Jest),TC-VAL: Input Validation,VAL-007: Valid appliance type Catheter accepted,Valid appliance type Catheter accepted
+VAL-008,Backend Unit (Jest),TC-VAL: Input Validation,VAL-008: Valid appliance type Scalpel accepted,Valid appliance type Scalpel accepted
+VAL-009,Backend Unit (Jest),TC-VAL: Input Validation,VAL-009: Valid appliance type Endoscope Tube accepted,Valid appliance type Endoscope Tube accepted
+VAL-010,Backend Unit (Jest),TC-VAL: Input Validation,VAL-010: XSS in appliance type sanitized,XSS in appliance type sanitized
+VAL-011,Backend Unit (Jest),TC-VAL: Input Validation,VAL-011: Dilution factor 1 accepted,Dilution factor 1 accepted
+VAL-012,Backend Unit (Jest),TC-VAL: Input Validation,VAL-012: Dilution factor 10 accepted,Dilution factor 10 accepted
+VAL-013,Backend Unit (Jest),TC-VAL: Input Validation,VAL-013: Negative dilution handled,Negative dilution handled
+VAL-014,Backend Unit (Jest),TC-VAL: Input Validation,VAL-014: Zero dilution handled,Zero dilution handled
+VAL-015,Backend Unit (Jest),TC-VAL: Input Validation,VAL-015: Non-numeric dilution handled,Non-numeric dilution handled
+VAL-016,Backend Unit (Jest),TC-VAL: Input Validation,VAL-016: Name with only spaces rejected,Name with only spaces rejected
+VAL-017,Backend Unit (Jest),TC-VAL: Input Validation,VAL-017: Name with numbers accepted,Name with numbers accepted
+VAL-018,Backend Unit (Jest),TC-VAL: Input Validation,VAL-018: Name with special characters accepted,Name with special characters accepted
+VAL-019,Backend Unit (Jest),TC-VAL: Input Validation,VAL-019: Very short name handled,Very short name handled
+VAL-020,Backend Unit (Jest),TC-VAL: Input Validation,VAL-020: Emoji in name handled,Emoji in name handled
+VAL-021,Backend Unit (Jest),TC-VAL: Input Validation,VAL-021: Valid role Lab Technician accepted,Valid role Lab Technician accepted
+VAL-022,Backend Unit (Jest),TC-VAL: Input Validation,VAL-022: Valid role Researcher accepted,Valid role Researcher accepted
+VAL-023,Backend Unit (Jest),TC-VAL: Input Validation,VAL-023: Valid role Admin accepted,Valid role Admin accepted
+VAL-024,Backend Unit (Jest),TC-VAL: Input Validation,VAL-024: Invalid role rejected,Invalid role rejected
+VAL-025,Backend Unit (Jest),TC-VAL: Input Validation,VAL-025: Empty role handled,Empty role handled
+VAL-026,Backend Unit (Jest),TC-VAL: Input Validation,VAL-026: Long comment handled,Long comment handled
+VAL-027,Backend Unit (Jest),TC-VAL: Input Validation,VAL-027: XSS in comments sanitized,XSS in comments sanitized
+EDGE-001,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-001: Server handles missing Content-Type,Server handles missing Content-Type
+EDGE-002,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-002: Server handles OPTIONS preflight,Server handles OPTIONS preflight
+EDGE-003,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-003: Server handles HEAD request,Server handles HEAD request
+EDGE-004,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-004: Server handles empty body POST,Server handles empty body POST
+EDGE-005,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-005: Server handles array body,Server handles array body
+EDGE-006,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-006: Server handles boolean body,Server handles boolean body
+EDGE-007,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-007: Concurrent requests to same endpoint,Concurrent requests to same endpoint
+EDGE-008,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-008: Very long request URL handled,Very long request URL handled
+EDGE-009,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-009: Unicode in request body,Unicode in request body
+EDGE-010,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-010: Null body does not crash server,Null body does not crash server
+EDGE-011,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-011: Deeply nested JSON body handled,Deeply nested JSON body handled
+EDGE-012,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-012: Request with extra headers handled,Request with extra headers handled
+EDGE-013,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-013: Response always has status code,Response always has status code
+EDGE-014,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-014: Response status in valid range,Response status in valid range
+EDGE-015,Backend Unit (Jest),TC-EDGE: Edge Cases & Error Handling,EDGE-015: Firebase error returns 500 not crash,Firebase error returns 500 not crash
+TC-LOAD-001,Load (Locust),UnauthenticatedBehavior,get_profile_no_auth,Simulate user activity: get profile no auth
+TC-LOAD-002,Load (Locust),UnauthenticatedBehavior,get_samples_no_auth,Simulate user activity: get samples no auth
+TC-LOAD-003,Load (Locust),UnauthenticatedBehavior,post_upload_no_auth,Simulate user activity: post upload no auth
+TC-LOAD-004,Load (Locust),UnauthenticatedBehavior,get_csv_report_no_auth,Simulate user activity: get csv report no auth
+TC-LOAD-005,Load (Locust),UnauthenticatedBehavior,get_admin_users_no_auth,Simulate user activity: get admin users no auth
+TC-LOAD-006,Load (Locust),UnauthenticatedBehavior,get_admin_history_no_auth,Simulate user activity: get admin history no auth
+TC-LOAD-007,Load (Locust),UnauthenticatedBehavior,delete_sample_no_auth,Simulate user activity: delete sample no auth
+TC-LOAD-008,Load (Locust),UnauthenticatedBehavior,post_settings_update_no_auth,Simulate user activity: post settings update no auth
+TC-LOAD-009,Load (Locust),UnauthenticatedBehavior,post_profile_update_no_auth,Simulate user activity: post profile update no auth
+TC-LOAD-010,Load (Locust),UnauthenticatedBehavior,post_register_profile_no_auth,Simulate user activity: post register profile no auth
+TC-LOAD-010,Load (Locust),UnauthenticatedBehavior,bulk_unauth_samples,Simulate user activity: bulk unauth samples
+TC-LOAD-010,Load (Locust),UnauthenticatedBehavior,bulk_unauth_delete,Simulate user activity: bulk unauth delete
+TC-LOAD-010,Load (Locust),UnauthenticatedBehavior,bulk_unauth_pdf,Simulate user activity: bulk unauth pdf
+TC-LOAD-010,Load (Locust),UnauthenticatedBehavior,bulk_unauth_detections_update,Simulate user activity: bulk unauth detections update
+TC-LOAD-010,Load (Locust),UnauthenticatedBehavior,bulk_unauth_role_update,Simulate user activity: bulk unauth role update
+TC-LOAD-010,Load (Locust),UnauthenticatedBehavior,bulk_unauth_admin_delete,Simulate user activity: bulk unauth admin delete
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,get_profile_invalid_token,Simulate user activity: get profile invalid token
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,get_samples_invalid_token,Simulate user activity: get samples invalid token
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,post_upload_invalid_token,Simulate user activity: post upload invalid token
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,get_csv_invalid_token,Simulate user activity: get csv invalid token
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,post_profile_update_invalid_token,Simulate user activity: post profile update invalid token
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,post_settings_invalid_token,Simulate user activity: post settings invalid token
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,post_register_invalid_token,Simulate user activity: post register invalid token
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,delete_sample_invalid_token,Simulate user activity: delete sample invalid token
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,post_detections_invalid_token,Simulate user activity: post detections invalid token
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,get_pdf_invalid_token,Simulate user activity: get pdf invalid token
+TC-LOAD-010,Load (Locust),InvalidTokenBehavior,bulk_invalid_token_mixed,Simulate user activity: bulk invalid token mixed
+TC-LOAD-010,Load (Locust),FrontendLoadBehavior,load_home_page,Simulate user activity: load home page
+TC-LOAD-010,Load (Locust),FrontendLoadBehavior,load_login_page,Simulate user activity: load login page
+TC-LOAD-010,Load (Locust),FrontendLoadBehavior,load_signup_page,Simulate user activity: load signup page
+TC-LOAD-010,Load (Locust),FrontendLoadBehavior,load_forgot_page,Simulate user activity: load forgot page
+TC-LOAD-010,Load (Locust),FrontendLoadBehavior,load_app_routes,Simulate user activity: load app routes
+TC-LOAD-010,Load (Locust),FrontendLoadBehavior,load_random_page,Simulate user activity: load random page
+TC-LOAD-010,Load (Locust),StressTestBehavior,rapid_fire_profile,Simulate user activity: rapid fire profile
+TC-LOAD-010,Load (Locust),StressTestBehavior,rapid_fire_samples,Simulate user activity: rapid fire samples
+TC-LOAD-010,Load (Locust),StressTestBehavior,large_payload_upload,Simulate user activity: large payload upload
+TC-LOAD-010,Load (Locust),StressTestBehavior,large_detections_array,Simulate user activity: large detections array
+TC-LOAD-010,Load (Locust),StressTestBehavior,xss_injection_attempt,Simulate user activity: xss injection attempt
+TC-LOAD-010,Load (Locust),StressTestBehavior,sql_injection_attempt,Simulate user activity: sql injection attempt
+TC-LOAD-010,Load (Locust),StressTestBehavior,mixed_load_burst,Simulate user activity: mixed load burst
+TC-LOAD-010,Load (Locust),StressTestBehavior,invalid_json_body,Simulate user activity: invalid json body
+TC-LOAD-010,Load (Locust),StressTestBehavior,very_long_url,Simulate user activity: very long url
+TC-LOAD-010,Load (Locust),StressTestBehavior,bulk_stress_mixed_endpoints,Simulate user activity: bulk stress mixed endpoints

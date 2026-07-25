@@ -1,3 +1,33 @@
+# Node
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local environment files
+.env
+.env.*
+
+# Logs
+*.log
+python_log.txt
+
+# Local database and uploads
+local_db/
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GitHub Actions
+.github/**/node_modules/
+
+# IDE / Android
 *.iml
 .gradle
 .kotlin
@@ -8,11 +38,13 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
-.env
 debug.keystore
+
+# Firebase credentials
+backend/firebase-service-account.json
+
